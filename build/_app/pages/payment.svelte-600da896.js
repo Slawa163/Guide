@@ -1,0 +1,1 @@
+import{S as s,i as t,s as e}from"../chunks/vendor-913a98cd.js";async function n({page:s,fetch:t,session:e,context:n}){return{status:302,redirect:`/payment/${s.host}/${s.query}`}}export default class extends s{constructor(s){super(),t(this,s,null,null,e,{})}}export{n as load};

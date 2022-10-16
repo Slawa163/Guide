@@ -1,0 +1,1638 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://mvolkmann.github.io/blog/svelte/sveltekit/?v=1.0.18
+Subject: https://mvolkmann.github.io/blog/svelte/sveltekit/?v=1.0.18
+Date: Mon, 30 Aug 2021 15:46:57 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----"
+
+
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/html
+Content-ID: <frame-CC41C9DD0EADEAFF1369C2D0935A9BC0@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mvolkmann.github.io/blog/svelte/sveltekit/?v=1.0.18
+
+<html class=3D"no-touch"><head><meta http-equiv=3D"Content-Type" content=3D=
+"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" hre=
+f=3D"cid:css-32e761ec-8a33-4eba-99d5-9dc600305248@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c66c7e9e-6957-441c-b5c1-f=
+0a806445b53@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-14ec69c5-6ee0-437e-a58c-5e6f15ce9d46@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-1825ad22-13a1-4392-a267-a=
+1277dff6509@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-56361b26-3c6f-429b-bfc6-ced6a74035bc@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2e115c3d-f89f-4248-8440-2=
+7a228a55508@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-90a94efe-f02b-47e4-806b-2c2c9a193c90@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-a398da7f-c7a4-435e-85cc-c=
+f92a900af17@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-c6ecab60-07a0-46fb-a712-388cdfdae527@mhtml.blink" /><link rel=
+=3D"preload" as=3D"style" href=3D"https://mvolkmann.github.io/blog/assets/p=
+rism-a11y.css"><link rel=3D"stylesheet" href=3D"https://mvolkmann.github.io=
+/blog/assets/prism-a11y.css"><link rel=3D"stylesheet" href=3D"https://mvolk=
+mann.github.io/blog/assets/topic.css"></head><body><h2>SvelteKit</h2><aside=
+><nav class=3D"toc"><ol><li><a href=3D"https://mvolkmann.github.io/blog/sve=
+lte/sveltekit/?v=3D1.0.18#overview">Overview</a></li><li><a href=3D"https:/=
+/mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#getting-started">Get=
+ting Started</a></li><li><a href=3D"https://mvolkmann.github.io/blog/svelte=
+/sveltekit/?v=3D1.0.18#typescript">TypeScript</a></li><li><a href=3D"https:=
+//mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#file-based-page-rou=
+ting">File-based Page Routing</a></li><li><a href=3D"https://mvolkmann.gith=
+ub.io/blog/svelte/sveltekit/?v=3D1.0.18#file-based-endpoints-(rest-services=
+)">File-based Endpoints (REST services)</a></li><li><a href=3D"https://mvol=
+kmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#layouts">Layouts</a></li>=
+<li><a href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.1=
+8#error-page">Error Page</a></li><li><a href=3D"https://mvolkmann.github.io=
+/blog/svelte/sveltekit/?v=3D1.0.18#code-splitting">Code Splitting</a></li><=
+li><a href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18=
+#hot-module-reloading">Hot Module Reloading</a></li><li><a href=3D"https://=
+mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#static-pages-and-site=
+s">Static Pages and Sites</a></li><li><a href=3D"https://mvolkmann.github.i=
+o/blog/svelte/sveltekit/?v=3D1.0.18#tool-setup">Tool Setup</a></li><li><a h=
+ref=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#path-a=
+liases">Path Aliases</a></li><li><a href=3D"https://mvolkmann.github.io/blo=
+g/svelte/sveltekit/?v=3D1.0.18#provided-modules">Provided Modules</a><ol><l=
+i><a href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#=
+%24app%2Fenv">$app/env</a></li><li><a href=3D"https://mvolkmann.github.io/b=
+log/svelte/sveltekit/?v=3D1.0.18#%24app%2Fnavigation">$app/navigation</a></=
+li><li><a href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.=
+0.18#%24app%2Fpaths">$app/paths</a></li><li><a href=3D"https://mvolkmann.gi=
+thub.io/blog/svelte/sveltekit/?v=3D1.0.18#%24app%2Fstores">$app/stores</a><=
+/li><li><a href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1=
+.0.18#%24service-worker">$service-worker</a></li></ol></li><li><a href=3D"h=
+ttps://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#adapters">Adap=
+ters</a><ol><li><a href=3D"https://mvolkmann.github.io/blog/svelte/svelteki=
+t/?v=3D1.0.18#netlify-example">Netlify Example</a></li></ol></li></ol></nav=
+></aside><article><h2 id=3D"overview">Overview</h2><p><a href=3D"https://ki=
+t.svelte.dev/?v=3D1.0.18" rel=3D"noopener" target=3D"_blank">SvelteKit</a> =
+is a framework that leverages Svelte and is a replacement for previous fram=
+ework Sapper. It is similar to Next for React and Nuxt for Vue.</p><p>The m=
+ain features of SvelteKit are:</p><ul><li>file-based page routing</li><li>f=
+ile-based endpoints (REST services)</li><li>layouts (ex. common page header=
+, footer, and nav)</li><li>error page</li><li>code splitting for JS and CSS=
+</li><li>first page visit is server-rendered for performance and remaining =
+pages are rendered in the browser</li><li>page visits only load the JS and =
+CSS they need</li><li>hot reloading (provided by Vite; very fast!)</li><li>=
+can build static sites and individual static pages</li><li>offline support =
+with ServiceWorkers</li><li>CLI tool that provides:<ul><li>setup of TypeScr=
+ipt</li><li>setup of Sass or Less CSS preprocessors</li><li>setup of ESLint=
+</li><li>setup of Prettier</li></ul></li><li>adapters for specific deployme=
+nt targets</li></ul><h2 id=3D"getting-started">Getting Started</h2><p>To cr=
+eate a new SvelteKit project:</p><ol><li><p>Install Node.js</p></li><li><p>=
+Enter <code>npm init svelte@next [project-name]</code><br>Omit the project =
+name to create a SvelteKit project in the current directory.</p></li><li><p=
+>Answer the following question:</p><ul><li>Use TypeScript in components? de=
+faults to no</li><li>What do you want to use for writing Styles in Svelte c=
+omponents? CSS (default), Less, or SCSS</li><li>Add ESLint for code listing=
+? defaults to no</li><li>Add Prettier for code formatting? defaults to no</=
+li></ul></li><li><p>Following instructions for next steps that are output.<=
+/p><ul><li>Enter <code>cd project-name</code></li><li>Enter <code>npm insta=
+ll</code></li></ul></li></ol><p>To run a SvelteKit project:</p><ol><li><p><=
+code>cd</code> to the project root directory.</p></li><li><p>To run in deve=
+lopment mode, enter <code>npm run dev</code><br>This provides watch and liv=
+e reload. Optionally add options after <code>--</code>. The <code>--open</c=
+ode> or <code>-o</code> option opens the app in the default web browser.<br=
+>The <code>--port</code> or <code>-p</code> option specifies a port listen =
+on which defaults to 3000.</p></li><li><p>To run the ESlint linter, enter <=
+code>npm run lint</code></p></li><li><p>To run the Prettier code formatter,=
+ enter <code>npm run format</code></p></li></ol><h2 id=3D"typescript">TypeS=
+cript</h2><p>The TypeScript types used by SvelteKit can be found in the fil=
+es in the <code>node_modules/@sveltejs/kit/types</code> directory. Routes t=
+hat need to load data before they are rendered do so by defining a <code>lo=
+ad</code> function in their module context. The <code>load</code> function =
+has a single parameter whose type is <code>LoadInput</code> and it returns =
+a <code>Promise&lt;LoadOutput&gt;</code>.</p><h2 id=3D"file-based-page-rout=
+ing">File-based Page Routing</h2><p>SvelteKit supports two kinds of routes,=
+ pages and endpoints. This section describes page routes. Endpoint routes a=
+re described in the next section.</p><p>The page routes of a SvelteKit app =
+are defined by files and directories inside the <code>src/routes</code> dir=
+ectory. These can be rendered on the server or in the browser, depending on=
+ configuration.</p><p>There are two ways to define a new page route. Suppos=
+e the desired route name is "some-route". The first approach is to add the =
+file <code>src/routes/some-route.svelte</code> that describes a Svelte comp=
+onent to render.</p><p>The second approach is to add the directory <code>sr=
+c/routes/some-route</code> with the file <code>index.svelte</code> inside i=
+t that describes a Svelte component to render. This approach is often used =
+when there are other route-specific source files so they can be grouped in =
+the same directory.</p><p>In both cases the route is rendered by adding <co=
+de>/some-route</code> to the end of the base URL for the app.</p><p>Routes =
+that require loading data before they are rendered can do so by defining a =
+<code>load</code> function in their module context. For example:</p><pre cl=
+ass=3D"language-ts"><code class=3D"language-ts"><span class=3D"token operat=
+or">&lt;</span>script context<span class=3D"token operator">=3D</span><span=
+ class=3D"token string">"module"</span> lang<span class=3D"token operator">=
+=3D</span><span class=3D"token string">"ts"</span><span class=3D"token oper=
+ator">&gt;</span><br>  <span class=3D"token keyword">import</span> <span cl=
+ass=3D"token keyword">type</span> <span class=3D"token punctuation">{</span=
+>LoadInput<span class=3D"token punctuation">,</span> LoadOutput<span class=
+=3D"token punctuation">}</span> <span class=3D"token keyword">from</span> <=
+span class=3D"token string">'@sveltejs/kit/types'</span><span class=3D"toke=
+n punctuation">;</span><br><br>  <span class=3D"token keyword">export</span=
+> <span class=3D"token keyword">async</span> <span class=3D"token keyword">=
+function</span> <span class=3D"token function">load</span><span class=3D"to=
+ken punctuation">(</span><span class=3D"token punctuation">{</span>context<=
+span class=3D"token punctuation">,</span> fetch<span class=3D"token punctua=
+tion">,</span> page<span class=3D"token punctuation">,</span> session<span =
+class=3D"token punctuation">}</span><span class=3D"token operator">:</span>=
+ LoadInput<span class=3D"token punctuation">)</span><span class=3D"token op=
+erator">:</span> <span class=3D"token builtin">Promise</span><span class=3D=
+"token operator">&lt;</span>LoadOutput<span class=3D"token operator">&gt;</=
+span> <span class=3D"token punctuation">{</span><br>    <span class=3D"toke=
+n keyword">const</span> dogId <span class=3D"token operator">=3D</span> <sp=
+an class=3D"token function">Number</span><span class=3D"token punctuation">=
+(</span>page<span class=3D"token punctuation">.</span>params<span class=3D"=
+token punctuation">.</span>someId<span class=3D"token punctuation">)</span>=
+<span class=3D"token punctuation">;</span><br><br>    <span class=3D"token =
+keyword">let</span> res <span class=3D"token operator">=3D</span> <span cla=
+ss=3D"token keyword">await</span> <span class=3D"token function">fetch</spa=
+n><span class=3D"token punctuation">(</span><span class=3D"token template-s=
+tring"><span class=3D"token template-punctuation string">`</span><span clas=
+s=3D"token string">/api/dog/</span><span class=3D"token interpolation"><spa=
+n class=3D"token interpolation-punctuation punctuation">${</span>dogId<span=
+ class=3D"token interpolation-punctuation punctuation">}</span></span><span=
+ class=3D"token template-punctuation string">`</span></span><span class=3D"=
+token punctuation">)</span><span class=3D"token punctuation">;</span><br>  =
+  <span class=3D"token keyword">const</span> dog <span class=3D"token opera=
+tor">=3D</span> <span class=3D"token keyword">await</span> res<span class=
+=3D"token punctuation">.</span><span class=3D"token function">json</span><s=
+pan class=3D"token punctuation">(</span><span class=3D"token punctuation">)=
+</span><span class=3D"token punctuation">;</span><br><br>    <span class=3D=
+"token keyword">return</span> <span class=3D"token punctuation">{</span>pro=
+ps<span class=3D"token operator">:</span> <span class=3D"token punctuation"=
+>{</span>dog<span class=3D"token punctuation">}</span><span class=3D"token =
+punctuation">}</span><span class=3D"token punctuation">;</span><br>  <span =
+class=3D"token punctuation">}</span><br><span class=3D"token operator">&lt;=
+</span><span class=3D"token operator">/</span>script<span class=3D"token op=
+erator">&gt;</span><br><br><span class=3D"token operator">&lt;</span>script=
+ lang<span class=3D"token operator">=3D</span><span class=3D"token string">=
+"ts"</span><span class=3D"token operator">&gt;</span><br>  <span class=3D"t=
+oken keyword">import</span> <span class=3D"token keyword">type</span> <span=
+ class=3D"token punctuation">{</span>Dog<span class=3D"token punctuation">}=
+</span> <span class=3D"token keyword">from</span> <span class=3D"token stri=
+ng">'$lib/types'</span><span class=3D"token punctuation">;</span><br><br>  =
+<span class=3D"token keyword">export</span> <span class=3D"token keyword">l=
+et</span> dog<span class=3D"token operator">:</span> Dog<span class=3D"toke=
+n punctuation">;</span><br><span class=3D"token operator">&lt;</span><span =
+class=3D"token operator">/</span>script<span class=3D"token operator">&gt;<=
+/span><br><br><span class=3D"token operator">&lt;</span>h2<span class=3D"to=
+ken operator">&gt;</span>Dog<span class=3D"token operator">&lt;</span><span=
+ class=3D"token operator">/</span>h2<span class=3D"token operator">&gt;</sp=
+an><br><br><span class=3D"token operator">&lt;</span>p<span class=3D"token =
+operator">&gt;</span><span class=3D"token punctuation">{</span>dog<span cla=
+ss=3D"token punctuation">.</span>name<span class=3D"token punctuation">}</s=
+pan> <span class=3D"token keyword">is</span> a <span class=3D"token punctua=
+tion">{</span>dog<span class=3D"token punctuation">.</span>breed<span class=
+=3D"token punctuation">}</span><span class=3D"token punctuation">.</span><s=
+pan class=3D"token operator">&lt;</span><span class=3D"token operator">/</s=
+pan>p<span class=3D"token operator">&gt;</span></code></pre><p>The <code>Lo=
+adInput</code> object passed to the <code>load</code> function contains fou=
+r properties.</p><p>The <code>context</code> property is a <code>Context</c=
+ode> object.</p><p>The <code>fetch</code> property is a function used to se=
+nd an HTTP request. <code>fetch: (info: RequestInfo, init?: RequestInit) =
+=3D&gt; Promise&lt;Response&gt;</code> This can be called to send an HTTP r=
+equest to any server, including the one provided by SvelteKit where endpoin=
+ts (described next) are hosted.</p><p>The <code>page</code> property is a <=
+code>Page&lt;PageParams&gt;</code> object.</p><p>The <code>session</code> p=
+roperty is a <code>Session</code> object.</p><p>The file <code>src/routes/i=
+ndex.svelte</code> defines the page to render at the <code>/</code> route. =
+To render this page when running the app locally on the default port, brows=
+e <code>localhost:3000</code>.</p><p>Nested subdirectories under <code>src/=
+routes</code> define routes at URL paths with multiple path parts. Director=
+ies with names that begin with <code>[</code> and end with <code>]</code> r=
+epresent path parameters (a.k.a dynamic parameters). For example, suppose a=
+ page is defined in the file <code>src/routes/person/[personId]/dog/[dogId]=
+/index.svelte</code>. To render the page for the person with id 19 and the =
+dog with id 2, browse <code>localhost:3000/person/19/dog/2</code>.</p><h2 i=
+d=3D"file-based-endpoints-(rest-services)">File-based Endpoints (REST servi=
+ces)</h2><p>Endpoints are defined by creating <code>.js</code> or <code>.ts=
+</code> files under the <code>src/routes</code> directory. This code is exe=
+cuted by a provided Node.js server, or a build time for pre-rendered pages.=
+ It is never executed in a browser.</p><p>Endpoints can access data from so=
+urces like databases. They return data as JSON by default, but other data f=
+ormats can also be returned.</p><p>There are two common conventions for def=
+ining endpoints. One is to create an <code>api</code> directory in <code>sr=
+c/routes</code> and create files in that directory and below. Another is to=
+ create files with a <code>.json.js</code> or <code>.json.ts</code> extensi=
+on. TODO: Try the second option to verify.</p><p>TODO: Finish this</p><h2 i=
+d=3D"layouts">Layouts</h2><p>TODO: Finish this</p><h2 id=3D"error-page">Err=
+or Page</h2><p>TODO: Finish this</p><h2 id=3D"code-splitting">Code Splittin=
+g</h2><p>TODO: Finish this</p><h2 id=3D"hot-module-reloading">Hot Module Re=
+loading</h2><p>TODO: Finish this</p><h2 id=3D"static-pages-and-sites">Stati=
+c Pages and Sites</h2><p>TODO: Finish this</p><h2 id=3D"tool-setup">Tool Se=
+tup</h2><p>Creation of a new SvelteKit project prompts for desired features=
+. It asks the following questions:</p><p>"Use TypeScript in components?" Th=
+is defaults to no.</p><p>"What do you want to use for writing Styles in Sve=
+lte components?" The options are CSS (default), Less, and SCSS.</p><p>"Add =
+ESLint for code listing?" This defaults to no.</p><p>"Add Prettier for code=
+ formatting?" This defaults to no.</p><h2 id=3D"path-aliases">Path Aliases<=
+/h2><p>SvelteKit provides directory aliases. These can only be used in impo=
+rt path strings. They are not variables.</p><p><code>$app</code> is used to=
+ import various modules described below.</p><p><code>$lib</code> is an alia=
+s to the <code>src/lib</code> directory. It is used to import your own sour=
+ce files without using relative paths.</p><h2 id=3D"provided-modules">Provi=
+ded Modules</h2><h3 id=3D"%24app%2Fenv"><code>$app/env</code></h3><p>To use=
+ this module, import the desired items as follows:</p><p><code>import { amp=
+, browser, dev } from '$app/env';</code></p><p><code>amp</code> is a boolea=
+n that indicates whether the app uses <a href=3D"https://developers.google.=
+com/amp?v=3D1.0.18" rel=3D"noopener" target=3D"_blank">Accelerated Mobile P=
+ages (AMP)</a> created by Google.</p><p><code>browser</code> is a boolean t=
+hat indicates whether the code is running in the browser. When the value is=
+ <code>false</code>, the code is running on the server.</p><p><code>dev</co=
+de> is a boolean that indicates whether the code is running in development =
+mode. When the value is <code>false</code>, the code is running in producti=
+on mode.</p><h3 id=3D"%24app%2Fnavigation"><code>$app/navigation</code></h3=
+><p>To use this module, import the desired items as follows:</p><p><code>im=
+port { goto, prefetch, prefetchRoutes } from '$app/navigation';</code></p><=
+p><code>goto</code> is a function that programmatically navigates to a new =
+route. This is preferred over setting <code>location.href</code>.</p><p><co=
+de>prefetch</code> is a function that programmatically prefetches the page =
+at a given route. It can be called before calling <code>goto</code> to impr=
+ove performance. This is appropriate when it can be anticipated that the us=
+er will want to go to the page soon. It is the same functionality that is t=
+riggered by hovering over a link that uses the <code>sveltekit:prefetch</co=
+de> attribute.</p><p><code>prefetchRoutes</code> is a function that program=
+matically prefetches a set of pages at given routes or all pages.</p><h3 id=
+=3D"%24app%2Fpaths"><code>$app/paths</code></h3><p>To use this module, impo=
+rt the desired items as follows:</p><p><code>import { base, assets } from '=
+$app/paths';</code></p><p>These are directory paths that are relative to th=
+e root project directory. The default to that directory, but can be modifie=
+d in <code>svelte.config.cjs</code> at the property paths <code>kit.paths.a=
+ssets</code> and <code>kit.paths.base</code>. Changing these doesn't seem v=
+ery useful.</p><h3 id=3D"%24app%2Fstores"><code>$app/stores</code></h3><p>T=
+o use this module, import the desired items as follows:</p><p><code>import =
+{ getStores, navigating, page, session } from '$app/stores';</code></p><p><=
+code>getStores</code> is a function that returns an object containing the o=
+ther three values. This doesn't seem useful.</p><p><code>navigating</code> =
+is a readable store whose value is <code>null</code> when not navigating an=
+d an object with <code>from</code> and <code>to</code> properties when navi=
+gating. TODO: Why does this seem to always be null?</p><p><code>page</code>=
+ is a readable store that holds the data passed to page <code>load</code> f=
+unctions, including <code>host</code>, <code>path</code>, <code>params</cod=
+e>, and <code>query</code> for getting information about a request.</p><p><=
+code>session</code> is a writable store that holds session data. However, s=
+etting it doesn't not cause data to be persisted on the server. If desired,=
+ that must be implemented.</p><h3 id=3D"%24service-worker"><code>$service-w=
+orker</code></h3><p>To use this module, import the desired items as follows=
+:</p><p><code>import { build, files, timestamp } from '$service-worker';</c=
+ode></p><p><code>build</code> is an array of URLs for the files generated b=
+y Vite. These files can be cached by calling <code>cache.addAll(build)</cod=
+e>.</p><p><code>files</code> is an array of URLs for the files in directory=
+ specified by <code>kit.files.assets</code> in the <code>svelte.config.cjs<=
+/code> file which defaults to <code>static</code>.</p><p><code>timestamp</c=
+ode> is the value of <code>Date.now()</code> (milliseconds) at build time. =
+It can be used generate a unique cache name which enables invalidating the =
+caches of subsequent deploys.</p><h2 id=3D"adapters"><a name=3D"adapter">Ad=
+apters</a></h2><p>The provided adapter targets currently include Node.js, s=
+tatic, Begin, Netlify, and Vercel. New SvelteKit projects default to using =
+the Node adapter. To change the adapter, modify the <code>svelte.config.cjs=
+</code> file.</p><h3 id=3D"netlify-example">Netlify Example</h3><ul><li><p>=
+cd to the root directory of a SvelteKit project.</p></li><li><p>Install the=
+ Netlify SvelteKit adapter with <code>npm install -D @sveltejs/adapter-netl=
+ify@next</code></p><p>This deploys SvelteKit endpoints as serverless functi=
+ons in AWS without requiring an AWS account.</p></li><li><p>Edit <code>svel=
+te.config.cjs</code></p><ul><li>Change the first line to the following:</li=
+></ul><pre class=3D"language-js"><code class=3D"language-js"><span class=3D=
+"token keyword">const</span> adapter <span class=3D"token operator">=3D</sp=
+an> <span class=3D"token function">require</span><span class=3D"token punct=
+uation">(</span><span class=3D"token string">'@sveltejs/adapter-netlify'</s=
+pan><span class=3D"token punctuation">)</span><span class=3D"token punctuat=
+ion">;</span></code></pre><ul><li><p>Change the "adapter" line to the follo=
+wing:</p><pre class=3D"language-js"><code class=3D"language-js">adapter<spa=
+n class=3D"token operator">:</span> <span class=3D"token function">adapter<=
+/span><span class=3D"token punctuation">(</span><span class=3D"token punctu=
+ation">)</span><span class=3D"token punctuation">,</span></code></pre></li>=
+</ul></li><li><p>Create the file <code>netlify.toml</code> in the project r=
+oot directory containing the following:</p><pre class=3D"language-toml"><co=
+de class=3D"language-toml"><span class=3D"token punctuation">[</span><span =
+class=3D"token table class-name">build</span><span class=3D"token punctuati=
+on">]</span><br><span class=3D"token key property">command</span> <span cla=
+ss=3D"token punctuation">=3D</span> <span class=3D"token string">"npm run b=
+uild"</span><br><span class=3D"token key property">functions</span><span cl=
+ass=3D"token punctuation">=3D</span><span class=3D"token string">"functions=
+/"</span><br><span class=3D"token key property">publish</span><span class=
+=3D"token punctuation">=3D</span><span class=3D"token string">"build/"</spa=
+n></code></pre></li><li><p>Create a GitHub repository to hold the project f=
+iles, add all the files, and push.</p></li><li><p>Create a Netlify account =
+if you don't already have one.</p><p>Browse <a href=3D"https://www.netlify.=
+com/">https://www.netlify.com</a> and click "Sign up".</p></li><li><p>Login=
+ to your Netlify account.</p></li><li><p>Press the "New site from Git" butt=
+on.</p></li><li><p>Press the "GitHub" button.</p></li><li><p>Select the rep=
+ository created above.</p><p>If you configured your account to only provide=
+ access to selected repositories, click the "Configure the Netlify app on G=
+itHub" link, click "Configure", scroll down to "Repository access", click t=
+he "Select repositories" drop down, search for the repository, select it, a=
+nd press the "Save" button.</p></li><li><p>Verify the settings displayed (d=
+efaults should be fine) and press the "Deploy site" button.</p></li><li><p>=
+Wait for deployment to complete and note its URL.</p></li><li><p>Browse the=
+ URL to run the app.</p></li></ul><p>Note: I was expecting each SvelteKit e=
+ndpoint to show up as a separate Netlify function. But instead I see just o=
+ne Netlify function named "render". I know it's working because if I add a =
+<code>console.log</code> in the code of each of my endpoints, push the chan=
+ges, wait for it to be redeployed to Netlify, run the new version of app to=
+ trigger calls to the endpoints, and then click that "render" function in N=
+etlify, I do see the expected output from the <code>console.log</code> call=
+s. It seems odd that all the endpoints are bundled into one Netlify functio=
+n.</p></article><textarea id=3D"BFI_DATA" style=3D"width: 1px; height: 1px;=
+ display: none;"></textarea><title> </title><div id=3D"WidgetFloaterPanels"=
+ translate=3D"no" style=3D"display: none; text-align: left; direction: ltr;=
+ visibility: hidden;" class=3D"LTRStyle"> <div id=3D"WidgetFloater" style=
+=3D"display: none"> <div id=3D"WidgetLogoPanel"> <span id=3D"WidgetTranslat=
+eWithSpan"><span>TRANSLATE with </span><img id=3D"FloaterLogo"></span> <spa=
+n id=3D"WidgetCloseButton" title=3D"Exit Translation">x</span></div> <div i=
+d=3D"LanguageMenuPanel"> <div class=3D"DDStyle_outer"><input name=3D"Langua=
+geMenu_svid" type=3D"text" id=3D"LanguageMenu_svid" style=3D"display:none;"=
+ autocomplete=3D"on" value=3D"en"> <input name=3D"LanguageMenu_textid" type=
+=3D"text" id=3D"LanguageMenu_textid" style=3D"display:none;" autocomplete=
+=3D"on"> <span tabindex=3D"0" class=3D"DDStyle" id=3D"__LanguageMenu_header=
+">English</span> <div style=3D"position:relative;text-align:left;left:0;"><=
+div style=3D"position:absolute;width:;left:0px;"><div class=3D"DDStyle" sty=
+le=3D"display:none;" id=3D"__LanguageMenu_popup"> <table id=3D"LanguageMenu=
+" border=3D"0"> <tbody><tr> <td><a tabindex=3D"-1" href=3D"https://mvolkman=
+n.github.io/blog/svelte/sveltekit/?v=3D1.0.18#ar">Arabic</a></td><td><a tab=
+index=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=
+=3D1.0.18#he">Hebrew</a></td><td><a tabindex=3D"-1" href=3D"https://mvolkma=
+nn.github.io/blog/svelte/sveltekit/?v=3D1.0.18#pl">Polish</a></td> </tr><tr=
+> <td><a tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sv=
+eltekit/?v=3D1.0.18#bg">Bulgarian</a></td><td><a tabindex=3D"-1" href=3D"ht=
+tps://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#hi">Hindi</a></=
+td><td><a tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/s=
+veltekit/?v=3D1.0.18#pt">Portuguese</a></td> </tr><tr> <td><a tabindex=3D"-=
+1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#ca=
+">Catalan</a></td><td><a tabindex=3D"-1" href=3D"https://mvolkmann.github.i=
+o/blog/svelte/sveltekit/?v=3D1.0.18#mww">Hmong Daw</a></td><td><a tabindex=
+=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.=
+18#ro">Romanian</a></td> </tr><tr> <td><a tabindex=3D"-1" href=3D"https://m=
+volkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#zh-CHS">Chinese Simpli=
+fied</a></td><td><a tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blo=
+g/svelte/sveltekit/?v=3D1.0.18#hu">Hungarian</a></td><td><a tabindex=3D"-1"=
+ href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#ru">=
+Russian</a></td> </tr><tr> <td><a tabindex=3D"-1" href=3D"https://mvolkmann=
+.github.io/blog/svelte/sveltekit/?v=3D1.0.18#zh-CHT">Chinese Traditional</a=
+></td><td><a tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelt=
+e/sveltekit/?v=3D1.0.18#id">Indonesian</a></td><td><a tabindex=3D"-1" href=
+=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#sk">Slova=
+k</a></td> </tr><tr> <td><a tabindex=3D"-1" href=3D"https://mvolkmann.githu=
+b.io/blog/svelte/sveltekit/?v=3D1.0.18#cs">Czech</a></td><td><a tabindex=3D=
+"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#=
+it">Italian</a></td><td><a tabindex=3D"-1" href=3D"https://mvolkmann.github=
+.io/blog/svelte/sveltekit/?v=3D1.0.18#sl">Slovenian</a></td> </tr><tr> <td>=
+<a tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/svelteki=
+t/?v=3D1.0.18#da">Danish</a></td><td><a tabindex=3D"-1" href=3D"https://mvo=
+lkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#ja">Japanese</a></td><td=
+><a tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltek=
+it/?v=3D1.0.18#es">Spanish</a></td> </tr><tr> <td><a tabindex=3D"-1" href=
+=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#nl">Dutch=
+</a></td><td><a tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/sv=
+elte/sveltekit/?v=3D1.0.18#tlh">Klingon</a></td><td><a tabindex=3D"-1" href=
+=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#sv">Swedi=
+sh</a></td> </tr><tr> <td><a tabindex=3D"-1" href=3D"https://mvolkmann.gith=
+ub.io/blog/svelte/sveltekit/?v=3D1.0.18#en">English</a></td><td><a tabindex=
+=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.=
+18#ko">Korean</a></td><td><a tabindex=3D"-1" href=3D"https://mvolkmann.gith=
+ub.io/blog/svelte/sveltekit/?v=3D1.0.18#th">Thai</a></td> </tr><tr> <td><a =
+tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?=
+v=3D1.0.18#et">Estonian</a></td><td><a tabindex=3D"-1" href=3D"https://mvol=
+kmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#lv">Latvian</a></td><td><=
+a tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit=
+/?v=3D1.0.18#tr">Turkish</a></td> </tr><tr> <td><a tabindex=3D"-1" href=3D"=
+https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#fi">Finnish</=
+a></td><td><a tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/svel=
+te/sveltekit/?v=3D1.0.18#lt">Lithuanian</a></td><td><a tabindex=3D"-1" href=
+=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#uk">Ukrai=
+nian</a></td> </tr><tr> <td><a tabindex=3D"-1" href=3D"https://mvolkmann.gi=
+thub.io/blog/svelte/sveltekit/?v=3D1.0.18#fr">French</a></td><td><a tabinde=
+x=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0=
+.18#ms">Malay</a></td><td><a tabindex=3D"-1" href=3D"https://mvolkmann.gith=
+ub.io/blog/svelte/sveltekit/?v=3D1.0.18#ur">Urdu</a></td> </tr><tr> <td><a =
+tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?=
+v=3D1.0.18#de">German</a></td><td><a tabindex=3D"-1" href=3D"https://mvolkm=
+ann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#mt">Maltese</a></td><td><a =
+tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?=
+v=3D1.0.18#vi">Vietnamese</a></td> </tr><tr> <td><a tabindex=3D"-1" href=3D=
+"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#el">Greek</a=
+></td><td><a tabindex=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelt=
+e/sveltekit/?v=3D1.0.18#no">Norwegian</a></td><td><a tabindex=3D"-1" href=
+=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=3D1.0.18#cy">Welsh=
+</a></td> </tr><tr> <td><a tabindex=3D"-1" href=3D"https://mvolkmann.github=
+.io/blog/svelte/sveltekit/?v=3D1.0.18#ht">Haitian Creole</a></td><td><a tab=
+index=3D"-1" href=3D"https://mvolkmann.github.io/blog/svelte/sveltekit/?v=
+=3D1.0.18#fa">Persian</a></td><td></td> </tr> </tbody></table> <img alt=3D"=
+" style=3D"height:7px;width:17px;border-width:0px;left:20px;"> </div></div>=
+</div></div>  </div> <div id=3D"CTFLinksPanel"> <span id=3D"ExternalLinksPa=
+nel"><a id=3D"HelpLink" title=3D"Help" target=3D"_blank" href=3D"https://go=
+.microsoft.com/?linkid=3D9722454"> <img id=3D"HelpImg"></a> <a id=3D"EmbedL=
+ink" title=3D"Get this widget for your own site"> <img id=3D"EmbedImg"></a>=
+ <a id=3D"ShareLink" title=3D"Share translated page with friends"> <img id=
+=3D"ShareImg"></a> </span> </div> <div id=3D"FloaterProgressBar"> <span id=
+=3D"ProgressFill"></span> </div> </div> <div id=3D"WidgetFloaterCollapsed" =
+style=3D"display: none"> <span>TRANSLATE with </span><img id=3D"CollapsedLo=
+goImg"></div> <div id=3D"FloaterSharePanel" style=3D"display: none"> <div i=
+d=3D"ShareTextDiv"> <span id=3D"ShareTextSpan"> COPY THE URL BELOW </span> =
+</div> <div id=3D"ShareTextboxDiv"> <input name=3D"ShareTextbox" type=3D"te=
+xt" id=3D"ShareTextbox" readonly=3D"readonly"> <!--a id=3D"TwitterLink" tit=
+le=3D"Share on Twitter"> <img id=3D"TwitterImg" /></a> <a-- id=3D"FacebookL=
+ink" title=3D"Share on Facebook"> <img id=3D"FacebookImg" /></a--> <a id=3D=
+"EmailLink" title=3D"Email this translation"> <img id=3D"EmailImg"></a> </d=
+iv> <div id=3D"ShareFooter"> <span id=3D"ShareHelpSpan"><a id=3D"ShareHelpL=
+ink"> <img id=3D"ShareHelpImg"></a></span> <span id=3D"ShareBackSpan"><a id=
+=3D"ShareBack" title=3D"Back To Translation"> Back</a></span> </div>    </d=
+iv> <div id=3D"FloaterEmbed" style=3D"display: none"> <div id=3D"EmbedTextD=
+iv"> <span id=3D"EmbedTextSpan">EMBED THE SNIPPET BELOW IN YOUR SITE</span>=
+ <a id=3D"EmbedHelpLink" title=3D"Copy this code and place it into your HTM=
+L."> <img id=3D"EmbedHelpImg"></a> </div> <div id=3D"EmbedTextboxDiv"> <inp=
+ut name=3D"EmbedSnippetTextBox" type=3D"text" id=3D"EmbedSnippetTextBox" re=
+adonly=3D"readonly" value=3D"<div id=3D'MicrosoftTranslatorWidget' class=3D=
+'Dark' style=3D'color:white;background-color:#555555'></div><script type=3D=
+'text/javascript'>setTimeout(function(){var s=3Ddocument.createElement('scr=
+ipt');s.type=3D'text/javascript';s.charset=3D'UTF-8';s.src=3D((location &am=
+p;&amp; location.href &amp;&amp; location.href.indexOf('https') =3D=3D 0)?'=
+https://ssl.microsofttranslator.com':'http://www.microsofttranslator.com')+=
+'/ajax/v3/WidgetV3.ashx?siteData=3DueOIGRSKkd965FeEGM5JtQ**&amp;ctf=3Dtrue&=
+amp;ui=3Dtrue&amp;settings=3Dmanual&amp;from=3Den';var p=3Ddocument.getElem=
+entsByTagName('head')[0]||document.documentElement;p.insertBefore(s,p.first=
+Child); },0);</script>"> </div> <div id=3D"EmbedNoticeDiv"><span id=3D"Embe=
+dNoticeSpan">Enable collaborative features and customize widget: <a href=3D=
+"http://www.bing.com/widget/translator" target=3D"_blank">Bing Webmaster Po=
+rtal</a></span></div> <div id=3D"EmbedFooterDiv"><span id=3D"EmbedBackSpan"=
+><a title=3D"Back To Translation">Back</a></span></div> </div>  </div><div =
+class=3D"TnITTtw-fp-collapsed-button" style=3D"display: block;"></div><div =
+class=3D"TnITTtw-mate-fp-bar" translate=3D"no" style=3D"z-index: 2; width: =
+0px; height: 0px; opacity: 0; display: none;">    <div class=3D"TnITTtw-hid=
+e-fp-bar" style=3D"display: none;"></div>    <div class=3D"TnITTtw-current-=
+page-lang" style=3D"display: none;">=D0=AF=D0=B7=D1=8B=D0=BA =D1=8D=D1=82=
+=D0=BE=D0=B9 =D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=B8=D1=86=D1=8B: =D0=90=D0=BD=
+=D0=B3=D0=BB=D0=B8=D0=B9=D1=81=D0=BA=D0=B8=D0=B9</div>    <div class=3D"TnI=
+TTtw-cta-button-layout" style=3D"display: none;">        <div class=3D"TnIT=
+Ttw-spinner">            <div class=3D"TnITTtw-bounce1"></div>            <=
+div class=3D"TnITTtw-bounce2"></div>            <div class=3D"TnITTtw-bounc=
+e3"></div>        </div>        <div class=3D"TnITTtw-mw-button TnITTtw-fp-=
+translate TnITTtw-high-cta" style=3D"display: none;">=D0=9F=D0=B5=D1=80=D0=
+=B5=D0=B2=D0=B5=D1=81=D1=82=D0=B8 =D0=BD=D0=B0 =D0=A0=D1=83=D1=81=D1=81=D0=
+=BA=D0=B8=D0=B9</div>    </div>    <div class=3D"TnITTtw-change-language Tn=
+ITTtw-select" data-for-serial=3D"3" style=3D"display: none;"></div>    <div=
+ class=3D"TnITTtw-stop-fp"></div>    <div class=3D"TnITTtw-ui_selector" sty=
+le=3D"display: none;">        <div class=3D"TnITTtw-options-arrow"></div>  =
+      <div class=3D"TnITTtw-options TnITTtw-opt-3 TnITTtw-standalone" data-=
+serial=3D"3" style=3D"display: none; z-index: 998;">            <div class=
+=3D"TnITTtw-dd-search">                <input class=3D"TnITTtw-dd-input" ty=
+pe=3D"text" data-dir=3D"to" placeholder=3D"=D0=9F=D0=BE=D0=B8=D1=81=D0=BA" =
+data-width=3D"NaN">            </div>            <div id=3D"selVisibleScrol=
+l-3">                <div id=3D"selEntireScroll-3">                    <div=
+ class=3D"TnITTtw-inner-options-layout">                        <ul class=
+=3D"TnITTtw-list"><li class=3D"lang-en TnITTtw-option" index=3D"1"><span id=
+=3D"lang-en" val=3D"en" class=3D"lang-en">=D0=90=D0=BD=D0=B3=D0=BB=D0=B8=D0=
+=B9=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-ar TnITTtw-option"=
+ index=3D"2"><span id=3D"lang-ar" val=3D"ar" class=3D"lang-ar">=D0=90=D1=80=
+=D0=B0=D0=B1=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-bg TnITTt=
+w-option" index=3D"3"><span id=3D"lang-bg" val=3D"bg" class=3D"lang-bg">=D0=
+=91=D0=BE=D0=BB=D0=B3=D0=B0=D1=80=D1=81=D0=BA=D0=B8=D0=B9</span></li><li cl=
+ass=3D"lang-cy TnITTtw-option" index=3D"4"><span id=3D"lang-cy" val=3D"cy" =
+class=3D"lang-cy">=D0=92=D0=B0=D0=BB=D0=BB=D0=B8=D0=B9=D1=81=D0=BA=D0=B8=D0=
+=B9</span></li><li class=3D"lang-hu TnITTtw-option" index=3D"5"><span id=3D=
+"lang-hu" val=3D"hu" class=3D"lang-hu">=D0=92=D0=B5=D0=BD=D0=B3=D0=B5=D1=80=
+=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-vi TnITTtw-option" in=
+dex=3D"6"><span id=3D"lang-vi" val=3D"vi" class=3D"lang-vi">=D0=92=D1=8C=D0=
+=B5=D1=82=D0=BD=D0=B0=D0=BC=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D=
+"lang-el TnITTtw-option" index=3D"7"><span id=3D"lang-el" val=3D"el" class=
+=3D"lang-el">=D0=93=D1=80=D0=B5=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B9</span><=
+/li><li class=3D"lang-da TnITTtw-option" index=3D"8"><span id=3D"lang-da" v=
+al=3D"da" class=3D"lang-da">=D0=94=D0=B0=D1=82=D1=81=D0=BA=D0=B8=D0=B9</spa=
+n></li><li class=3D"lang-iw TnITTtw-option" index=3D"9"><span id=3D"lang-iw=
+" val=3D"iw" class=3D"lang-iw">=D0=98=D0=B2=D1=80=D0=B8=D1=82</span></li><l=
+i class=3D"lang-id TnITTtw-option" index=3D"10"><span id=3D"lang-id" val=3D=
+"id" class=3D"lang-id">=D0=98=D0=BD=D0=B4=D0=BE=D0=BD=D0=B5=D0=B7=D0=B8=D0=
+=B9=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-es TnITTtw-option"=
+ index=3D"11"><span id=3D"lang-es" val=3D"es" class=3D"lang-es">=D0=98=D1=
+=81=D0=BF=D0=B0=D0=BD=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-=
+it TnITTtw-option" index=3D"12"><span id=3D"lang-it" val=3D"it" class=3D"la=
+ng-it">=D0=98=D1=82=D0=B0=D0=BB=D1=8C=D1=8F=D0=BD=D1=81=D0=BA=D0=B8=D0=B9</=
+span></li><li class=3D"lang-ca TnITTtw-option" index=3D"13"><span id=3D"lan=
+g-ca" val=3D"ca" class=3D"lang-ca">=D0=9A=D0=B0=D1=82=D0=B0=D0=BB=D0=B0=D0=
+=BD=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-zh-TW TnITTtw-opti=
+on" index=3D"14"><span id=3D"lang-zh-TW" val=3D"zh-TW" class=3D"lang-zh-TW"=
+>=D0=9A=D0=B8=D1=82=D0=B0=D0=B9=D1=81=D0=BA=D0=B8=D0=B9 (=D1=82=D1=80=D0=B0=
+=D0=B4=D0=B8=D1=86=D0=B8=D0=BE=D0=BD=D0=BD=D1=8B=D0=B9)</span></li><li clas=
+s=3D"lang-zh-CN TnITTtw-option" index=3D"15"><span id=3D"lang-zh-CN" val=3D=
+"zh-CN" class=3D"lang-zh-CN">=D0=9A=D0=B8=D1=82=D0=B0=D0=B9=D1=81=D0=BA=D0=
+=B8=D0=B9 (=D1=83=D0=BF=D1=80=D0=BE=D1=89=D0=B5=D0=BD=D0=BD=D1=8B=D0=B9)</s=
+pan></li><li class=3D"lang-ko TnITTtw-option" index=3D"16"><span id=3D"lang=
+-ko" val=3D"ko" class=3D"lang-ko">=D0=9A=D0=BE=D1=80=D0=B5=D0=B9=D1=81=D0=
+=BA=D0=B8=D0=B9</span></li><li class=3D"lang-ht TnITTtw-option" index=3D"17=
+"><span id=3D"lang-ht" val=3D"ht" class=3D"lang-ht">=D0=9A=D1=80=D0=B5=D0=
+=BE=D0=BB=D1=8C=D1=81=D0=BA=D0=B8=D0=B9 (=D0=B3=D0=B0=D0=B8=D1=82=D0=B8)</s=
+pan></li><li class=3D"lang-lv TnITTtw-option" index=3D"18"><span id=3D"lang=
+-lv" val=3D"lv" class=3D"lang-lv">=D0=9B=D0=B0=D1=82=D1=8B=D1=88=D1=81=D0=
+=BA=D0=B8=D0=B9</span></li><li class=3D"lang-lt TnITTtw-option" index=3D"19=
+"><span id=3D"lang-lt" val=3D"lt" class=3D"lang-lt">=D0=9B=D0=B8=D1=82=D0=
+=BE=D0=B2=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-ms TnITTtw-o=
+ption" index=3D"20"><span id=3D"lang-ms" val=3D"ms" class=3D"lang-ms">=D0=
+=9C=D0=B0=D0=BB=D0=B0=D0=B9=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D=
+"lang-mt TnITTtw-option" index=3D"21"><span id=3D"lang-mt" val=3D"mt" class=
+=3D"lang-mt">=D0=9C=D0=B0=D0=BB=D1=8C=D1=82=D0=B8=D0=B9=D1=81=D0=BA=D0=B8=
+=D0=B9</span></li><li class=3D"lang-de TnITTtw-option" index=3D"22"><span i=
+d=3D"lang-de" val=3D"de" class=3D"lang-de">=D0=9D=D0=B5=D0=BC=D0=B5=D1=86=
+=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-nl TnITTtw-option" index=3D=
+"23"><span id=3D"lang-nl" val=3D"nl" class=3D"lang-nl">=D0=9D=D0=B8=D0=B4=
+=D0=B5=D1=80=D0=BB=D0=B0=D0=BD=D0=B4=D1=81=D0=BA=D0=B8=D0=B9</span></li><li=
+ class=3D"lang-no TnITTtw-option" index=3D"24"><span id=3D"lang-no" val=3D"=
+no" class=3D"lang-no">=D0=9D=D0=BE=D1=80=D0=B2=D0=B5=D0=B6=D1=81=D0=BA=D0=
+=B8=D0=B9</span></li><li class=3D"lang-fa TnITTtw-option" index=3D"25"><spa=
+n id=3D"lang-fa" val=3D"fa" class=3D"lang-fa">=D0=9F=D0=B5=D1=80=D1=81=D0=
+=B8=D0=B4=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-pl TnITTtw-o=
+ption" index=3D"26"><span id=3D"lang-pl" val=3D"pl" class=3D"lang-pl">=D0=
+=9F=D0=BE=D0=BB=D1=8C=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-=
+pt TnITTtw-option" index=3D"27"><span id=3D"lang-pt" val=3D"pt" class=3D"la=
+ng-pt">=D0=9F=D0=BE=D1=80=D1=82=D1=83=D0=B3=D0=B0=D0=BB=D1=8C=D1=81=D0=BA=
+=D0=B8=D0=B9</span></li><li class=3D"lang-ro TnITTtw-option" index=3D"28"><=
+span id=3D"lang-ro" val=3D"ro" class=3D"lang-ro">=D0=A0=D1=83=D0=BC=D1=8B=
+=D0=BD=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-ru TnITTtw-opti=
+on_selected" index=3D"29"><span id=3D"lang-ru" val=3D"ru" class=3D"lang-ru"=
+>=D0=A0=D1=83=D1=81=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-sk=
+ TnITTtw-option" index=3D"30"><span id=3D"lang-sk" val=3D"sk" class=3D"lang=
+-sk">=D0=A1=D0=BB=D0=BE=D0=B2=D0=B0=D1=86=D0=BA=D0=B8=D0=B9</span></li><li =
+class=3D"lang-sl TnITTtw-option" index=3D"31"><span id=3D"lang-sl" val=3D"s=
+l" class=3D"lang-sl">=D0=A1=D0=BB=D0=BE=D0=B2=D0=B5=D0=BD=D1=81=D0=BA=D0=B8=
+=D0=B9</span></li><li class=3D"lang-th TnITTtw-option" index=3D"32"><span i=
+d=3D"lang-th" val=3D"th" class=3D"lang-th">=D0=A2=D0=B0=D0=B9=D1=81=D0=BA=
+=D0=B8=D0=B9</span></li><li class=3D"lang-tr TnITTtw-option" index=3D"33"><=
+span id=3D"lang-tr" val=3D"tr" class=3D"lang-tr">=D0=A2=D1=83=D1=80=D0=B5=
+=D1=86=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-uk TnITTtw-option" in=
+dex=3D"34"><span id=3D"lang-uk" val=3D"uk" class=3D"lang-uk">=D0=A3=D0=BA=
+=D1=80=D0=B0=D0=B8=D0=BD=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"la=
+ng-ur TnITTtw-option" index=3D"35"><span id=3D"lang-ur" val=3D"ur" class=3D=
+"lang-ur">=D0=A3=D1=80=D0=B4=D1=83</span></li><li class=3D"lang-fi TnITTtw-=
+option" index=3D"36"><span id=3D"lang-fi" val=3D"fi" class=3D"lang-fi">=D0=
+=A4=D0=B8=D0=BD=D1=81=D0=BA=D0=B8=D0=B9</span></li><li class=3D"lang-fr TnI=
+TTtw-option" index=3D"37"><span id=3D"lang-fr" val=3D"fr" class=3D"lang-fr"=
+>=D0=A4=D1=80=D0=B0=D0=BD=D1=86=D1=83=D0=B7=D1=81=D0=BA=D0=B8=D0=B9</span><=
+/li><li class=3D"lang-hi TnITTtw-option" index=3D"38"><span id=3D"lang-hi" =
+val=3D"hi" class=3D"lang-hi">=D0=A5=D0=B8=D0=BD=D0=B4=D0=B8</span></li><li =
+class=3D"lang-cs TnITTtw-option" index=3D"39"><span id=3D"lang-cs" val=3D"c=
+s" class=3D"lang-cs">=D0=A7=D0=B5=D1=88=D1=81=D0=BA=D0=B8=D0=B9</span></li>=
+<li class=3D"lang-sv TnITTtw-option" index=3D"40"><span id=3D"lang-sv" val=
+=3D"sv" class=3D"lang-sv">=D0=A8=D0=B2=D0=B5=D0=B4=D1=81=D0=BA=D0=B8=D0=B9<=
+/span></li><li class=3D"lang-et TnITTtw-option" index=3D"41"><span id=3D"la=
+ng-et" val=3D"et" class=3D"lang-et">=D0=AD=D1=81=D1=82=D0=BE=D0=BD=D1=81=D0=
+=BA=D0=B8=D0=B9</span></li><li class=3D"lang-ja TnITTtw-option" index=3D"42=
+"><span id=3D"lang-ja" val=3D"ja" class=3D"lang-ja">=D0=AF=D0=BF=D0=BE=D0=
+=BD=D1=81=D0=BA=D0=B8=D0=B9</span></li></ul>                    </div>     =
+           </div>                <div id=3D"sel-scrollbar-3">              =
+      <div id=3D"sel-track-3">                        <div id=3D"sel-dragBa=
+r-3"></div>                    </div>                </div>            </di=
+v>        </div>    </div>    <div class=3D"TnITTtw-fp-options" style=3D"di=
+splay: none;">        <input type=3D"checkbox" id=3D"TnITTtw-always-transla=
+te" readonly=3D"readonly" style=3D"display: none;"><label for=3D"TnITTtw-al=
+ways-translate" class=3D"TnITTtw-always-translate-label TnITTtw-not-pro" st=
+yle=3D"display: none;"><span class=3D"TnITTtw-always-translate-inner-label"=
+ style=3D"display: none;">=D0=92=D1=81=D0=B5=D0=B3=D0=B4=D0=B0 =D0=BF=D0=B5=
+=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D0=B8=D1=82=D1=8C =D0=90=D0=BD=D0=B3=D0=BB=
+=D0=B8=D0=B9=D1=81=D0=BA=D0=B8=D0=B9 =D0=BD=D0=B0 =D0=A0=D1=83=D1=81=D1=81=
+=D0=BA=D0=B8=D0=B9</span><span class=3D"TnITTtw-pro-label" style=3D"display=
+: none;">PRO</span></label>        <br style=3D"display: none;">        <in=
+put type=3D"checkbox" id=3D"TnITTtw-never-translate-lang" style=3D"display:=
+ none;"><label for=3D"TnITTtw-never-translate-lang" class=3D"TnITTtw-never-=
+translate-lang-label" style=3D"display: none;">=D0=9D=D0=B8=D0=BA=D0=BE=D0=
+=B3=D0=B4=D0=B0 =D0=BD=D0=B5 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D0=
+=B8=D1=82=D1=8C =D0=90=D0=BD=D0=B3=D0=BB=D0=B8=D0=B9=D1=81=D0=BA=D0=B8=D0=
+=B9</label>        <br style=3D"display: none;">        <input type=3D"chec=
+kbox" id=3D"TnITTtw-never-translate-site" style=3D"display: none;"><label f=
+or=3D"TnITTtw-never-translate-site" class=3D"TnITTtw-never-translate-site-l=
+abel" style=3D"display: none;">=D0=9D=D0=B8=D0=BA=D0=BE=D0=B3=D0=B4=D0=B0 =
+=D0=BD=D0=B5 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=B4=D0=B8=D1=82=D1=8C m=
+volkmann.github.io</label>    </div></div></body></html>
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-32e761ec-8a33-4eba-99d5-9dc600305248@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_InfoClose { top: 0.2em; right: 0.2em; }
+
+.CtxtMenu_InfoContent { overflow: auto; text-align: left; font-size: 80%; p=
+adding: 0.4em 0.6em; border: 1px inset; margin: 1em 0px; max-height: 20em; =
+max-width: 30em; background-color: rgb(238, 238, 238); white-space: normal;=
+ }
+
+.CtxtMenu_Info.CtxtMenu_MousePost { outline: none; }
+
+.CtxtMenu_Info { position: fixed; left: 50%; width: auto; text-align: cente=
+r; border: 3px outset; padding: 1em 2em; background-color: rgb(221, 221, 22=
+1); color: black; cursor: default; font-family: message-box; font-size: 120=
+%; font-style: normal; text-indent: 0px; text-transform: none; line-height:=
+ normal; letter-spacing: normal; word-spacing: normal; overflow-wrap: norma=
+l; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; box=
+-shadow: rgb(128, 128, 128) 0px 10px 20px; }
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c66c7e9e-6957-441c-b5c1-f0a806445b53@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_MenuClose { position: absolute; cursor: pointer; display: inline-=
+block; border: 2px solid rgb(170, 170, 170); border-radius: 18px; font-fami=
+ly: "Courier New", Courier; font-size: 24px; color: rgb(240, 240, 240); }
+
+.CtxtMenu_MenuClose span { display: block; background-color: rgb(170, 170, =
+170); border: 1.5px solid; border-radius: 18px; line-height: 0; padding: 8p=
+x 0px 6px; }
+
+.CtxtMenu_MenuClose:hover { color: white !important; border: 2px solid rgb(=
+204, 204, 204) !important; }
+
+.CtxtMenu_MenuClose:hover span { background-color: rgb(204, 204, 204) !impo=
+rtant; }
+
+.CtxtMenu_MenuClose:hover:focus { outline: none; }
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-14ec69c5-6ee0-437e-a58c-5e6f15ce9d46@mhtml.blink
+
+@charset "utf-8";
+
+.CtxtMenu_Menu { position: absolute; background-color: white; color: black;=
+ width: auto; padding: 5px 0px; border: 1px solid rgb(204, 204, 204); margi=
+n: 0px; cursor: default; font: 400 12px "Segoe UI"; text-align: left; text-=
+indent: 0px; text-transform: none; letter-spacing: normal; word-spacing: no=
+rmal; overflow-wrap: normal; white-space: nowrap; float: none; z-index: 201=
+; border-radius: 5px; box-shadow: rgb(128, 128, 128) 0px 10px 20px; }
+
+.CtxtMenu_MenuItem { padding: 1px 2em; background: transparent; }
+
+.CtxtMenu_MenuArrow { position: absolute; right: 0.5em; padding-top: 0.25em=
+; color: rgb(102, 102, 102); font-family: null; font-size: 0.75em; }
+
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow { color: white; }
+
+.CtxtMenu_MenuArrow.CtxtMenu_RTL { left: 0.5em; right: auto; }
+
+.CtxtMenu_MenuCheck { position: absolute; left: 0.7em; font-family: null; }
+
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right: 0.7em; left: auto; }
+
+.CtxtMenu_MenuRadioCheck { position: absolute; left: 0.7em; }
+
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL { right: 0.7em; left: auto; }
+
+.CtxtMenu_MenuInputBox { padding-left: 1em; right: 0.5em; color: rgb(102, 1=
+02, 102); font-family: null; }
+
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL { left: 0.1em; }
+
+.CtxtMenu_MenuComboBox { left: 0.1em; padding-bottom: 0.5em; }
+
+.CtxtMenu_MenuSlider { left: 0.1em; }
+
+.CtxtMenu_SliderValue { position: absolute; right: 0.1em; padding-top: 0.25=
+em; color: rgb(51, 51, 51); font-size: 0.75em; }
+
+.CtxtMenu_SliderBar { outline: none; background: rgb(211, 211, 211); }
+
+.CtxtMenu_MenuLabel { padding: 1px 2em 3px 1.33em; font-style: italic; }
+
+.CtxtMenu_MenuRule { border-top: 1px solid rgb(221, 221, 221); margin: 4px =
+3px; }
+
+.CtxtMenu_MenuDisabled { color: graytext; }
+
+.CtxtMenu_MenuActive { background-color: rgb(96, 104, 114); color: white; }
+
+.CtxtMenu_MenuDisabled:focus { background-color: rgb(232, 232, 232); }
+
+.CtxtMenu_MenuLabel:focus { background-color: rgb(232, 232, 232); }
+
+.CtxtMenu_ContextMenu:focus { outline: none; }
+
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus { outline: none; }
+
+.CtxtMenu_SelectionMenu { position: relative; float: left; border-bottom: n=
+one; box-shadow: none; border-radius: 0px; }
+
+.CtxtMenu_SelectionItem { padding-right: 1em; }
+
+.CtxtMenu_Selection { right: 40%; width: 50%; }
+
+.CtxtMenu_SelectionBox { padding: 0em; max-height: 20em; max-width: none; b=
+ackground-color: rgb(255, 255, 255); }
+
+.CtxtMenu_SelectionDivider { clear: both; border-top: 2px solid rgb(0, 0, 0=
+); }
+
+.CtxtMenu_Menu .CtxtMenu_MenuClose { top: -10px; left: -10px; }
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1825ad22-13a1-4392-a267-a1277dff6509@mhtml.blink
+
+@charset "utf-8";
+
+mjx-container[jax=3D"CHTML"] { line-height: 0; }
+
+mjx-container [space=3D"1"] { margin-left: 0.111em; }
+
+mjx-container [space=3D"2"] { margin-left: 0.167em; }
+
+mjx-container [space=3D"3"] { margin-left: 0.222em; }
+
+mjx-container [space=3D"4"] { margin-left: 0.278em; }
+
+mjx-container [space=3D"5"] { margin-left: 0.333em; }
+
+mjx-container [rspace=3D"1"] { margin-right: 0.111em; }
+
+mjx-container [rspace=3D"2"] { margin-right: 0.167em; }
+
+mjx-container [rspace=3D"3"] { margin-right: 0.222em; }
+
+mjx-container [rspace=3D"4"] { margin-right: 0.278em; }
+
+mjx-container [rspace=3D"5"] { margin-right: 0.333em; }
+
+mjx-container [size=3D"s"] { font-size: 70.7%; }
+
+mjx-container [size=3D"ss"] { font-size: 50%; }
+
+mjx-container [size=3D"Tn"] { font-size: 60%; }
+
+mjx-container [size=3D"sm"] { font-size: 85%; }
+
+mjx-container [size=3D"lg"] { font-size: 120%; }
+
+mjx-container [size=3D"Lg"] { font-size: 144%; }
+
+mjx-container [size=3D"LG"] { font-size: 173%; }
+
+mjx-container [size=3D"hg"] { font-size: 207%; }
+
+mjx-container [size=3D"HG"] { font-size: 249%; }
+
+mjx-container [width=3D"full"] { width: 100%; }
+
+mjx-box { display: inline-block; }
+
+mjx-block { display: block; }
+
+mjx-itable { display: inline-table; }
+
+mjx-row { display: table-row; }
+
+mjx-row > * { display: table-cell; }
+
+mjx-mtext { display: inline-block; }
+
+mjx-mstyle { display: inline-block; }
+
+mjx-merror { display: inline-block; color: red; background-color: yellow; }
+
+mjx-mphantom { visibility: hidden; }
+
+mjx-assistive-mml { top: 0px; left: 0px; clip: rect(1px, 1px, 1px, 1px); us=
+er-select: none; position: absolute !important; padding: 1px 0px 0px !impor=
+tant; border: 0px !important; display: block !important; width: auto !impor=
+tant; overflow: hidden !important; }
+
+mjx-assistive-mml[display=3D"block"] { width: 100% !important; }
+
+mjx-c::before { display: block; width: 0px; }
+
+.MJX-TEX { font-family: MJXZERO, MJXTEX; }
+
+.TEX-B { font-family: MJXZERO, MJXTEX-B; }
+
+.TEX-I { font-family: MJXZERO, MJXTEX-I; }
+
+.TEX-MI { font-family: MJXZERO, MJXTEX-MI; }
+
+.TEX-BI { font-family: MJXZERO, MJXTEX-BI; }
+
+.TEX-S1 { font-family: MJXZERO, MJXTEX-S1; }
+
+.TEX-S2 { font-family: MJXZERO, MJXTEX-S2; }
+
+.TEX-S3 { font-family: MJXZERO, MJXTEX-S3; }
+
+.TEX-S4 { font-family: MJXZERO, MJXTEX-S4; }
+
+.TEX-A { font-family: MJXZERO, MJXTEX-A; }
+
+.TEX-C { font-family: MJXZERO, MJXTEX-C; }
+
+.TEX-CB { font-family: MJXZERO, MJXTEX-CB; }
+
+.TEX-FR { font-family: MJXZERO, MJXTEX-FR; }
+
+.TEX-FRB { font-family: MJXZERO, MJXTEX-FRB; }
+
+.TEX-SS { font-family: MJXZERO, MJXTEX-SS; }
+
+.TEX-SSB { font-family: MJXZERO, MJXTEX-SSB; }
+
+.TEX-SSI { font-family: MJXZERO, MJXTEX-SSI; }
+
+.TEX-SC { font-family: MJXZERO, MJXTEX-SC; }
+
+.TEX-T { font-family: MJXZERO, MJXTEX-T; }
+
+.TEX-V { font-family: MJXZERO, MJXTEX-V; }
+
+.TEX-VB { font-family: MJXZERO, MJXTEX-VB; }
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c { font-family: MJXZERO, MJXTEX-S=
+1, MJXTEX-S4, MJXTEX, MJXTEX-A !important; }
+
+@font-face { font-family: MJXZERO; src: url("https://cdn.jsdelivr.net/npm/m=
+athjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");=
+ }
+
+@font-face { font-family: MJXTEX; src: url("https://cdn.jsdelivr.net/npm/ma=
+thjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("=
+woff"); }
+
+@font-face { font-family: MJXTEX-B; src: url("https://cdn.jsdelivr.net/npm/=
+mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("w=
+off"); }
+
+@font-face { font-family: MJXTEX-I; src: url("https://cdn.jsdelivr.net/npm/=
+mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format(=
+"woff"); }
+
+@font-face { font-family: MJXTEX-MI; src: url("https://cdn.jsdelivr.net/npm=
+/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format=
+("woff"); }
+
+@font-face { font-family: MJXTEX-BI; src: url("https://cdn.jsdelivr.net/npm=
+/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") fo=
+rmat("woff"); }
+
+@font-face { font-family: MJXTEX-S1; src: url("https://cdn.jsdelivr.net/npm=
+/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") form=
+at("woff"); }
+
+@font-face { font-family: MJXTEX-S2; src: url("https://cdn.jsdelivr.net/npm=
+/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") form=
+at("woff"); }
+
+@font-face { font-family: MJXTEX-S3; src: url("https://cdn.jsdelivr.net/npm=
+/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") form=
+at("woff"); }
+
+@font-face { font-family: MJXTEX-S4; src: url("https://cdn.jsdelivr.net/npm=
+/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") form=
+at("woff"); }
+
+@font-face { font-family: MJXTEX-A; src: url("https://cdn.jsdelivr.net/npm/=
+mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format(=
+"woff"); }
+
+@font-face { font-family: MJXTEX-C; src: url("https://cdn.jsdelivr.net/npm/=
+mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff"=
+) format("woff"); }
+
+@font-face { font-family: MJXTEX-CB; src: url("https://cdn.jsdelivr.net/npm=
+/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") =
+format("woff"); }
+
+@font-face { font-family: MJXTEX-FR; src: url("https://cdn.jsdelivr.net/npm=
+/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") fo=
+rmat("woff"); }
+
+@font-face { font-family: MJXTEX-FRB; src: url("https://cdn.jsdelivr.net/np=
+m/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") form=
+at("woff"); }
+
+@font-face { font-family: MJXTEX-SS; src: url("https://cdn.jsdelivr.net/npm=
+/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") =
+format("woff"); }
+
+@font-face { font-family: MJXTEX-SSB; src: url("https://cdn.jsdelivr.net/np=
+m/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") fo=
+rmat("woff"); }
+
+@font-face { font-family: MJXTEX-SSI; src: url("https://cdn.jsdelivr.net/np=
+m/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") =
+format("woff"); }
+
+@font-face { font-family: MJXTEX-SC; src: url("https://cdn.jsdelivr.net/npm=
+/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") for=
+mat("woff"); }
+
+@font-face { font-family: MJXTEX-T; src: url("https://cdn.jsdelivr.net/npm/=
+mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") =
+format("woff"); }
+
+@font-face { font-family: MJXTEX-V; src: url("https://cdn.jsdelivr.net/npm/=
+mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") form=
+at("woff"); }
+
+@font-face { font-family: MJXTEX-VB; src: url("https://cdn.jsdelivr.net/npm=
+/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format=
+("woff"); }
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-56361b26-3c6f-429b-bfc6-ced6a74035bc@mhtml.blink
+
+@charset "utf-8";
+
+.TnITTtw-fp-collapsed-button { display: none; position: fixed !important; t=
+op: 16px !important; right: 16px !important; }
+
+.TnITTtw-fp-collapsed-button:hover { opacity: 1 !important; }
+
+.TnITTtw-mate-fp-bar { color: rgb(0, 0, 0); position: fixed; top: 16px; rig=
+ht: 16px; z-index: 999; background: rgba(255, 255, 255, 0.95); backdrop-fil=
+ter: blur(10px); padding: 16px; border-radius: 11px; box-shadow: rgba(0, 0,=
+ 0, 0.25) 0px 2px 10px; width: 320px; line-height: initial; font-family: -a=
+pple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, A=
+rial, Ubuntu, sans-serif !important; }
+
+.TnITTtw-mate-fp-bar.TnITTtw-dark-mode { background: rgb(44, 44, 43); }
+
+.TnITTtw-hide-fp-bar { width: 12px; height: 12px; background-size: 12px 12p=
+x; background-repeat: no-repeat; background-position: center center; positi=
+on: absolute; right: 8px; top: 8px; cursor: pointer; background-image: url(=
+"chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-=
+close-tt.png") !important; }
+
+.TnITTtw-hide-fp-bar:hover { background-image: url("chrome-extension://ihmg=
+iclibbndffejedjimfjmfoabpcke/res/images/ui/hover-close-tt.png") !important;=
+ }
+
+.TnITTtw-current-page-lang { color: rgb(109, 109, 114); font-size: 14px; fo=
+nt-weight: 600; margin-bottom: 8px; text-align: center; }
+
+.TnITTtw-dark-mode .TnITTtw-current-page-lang { color: rgb(152, 152, 157); =
+}
+
+.TnITTtw-fp-translate { width: calc(100% - 73px) !important; font-size: 14p=
+x !important; text-transform: none !important; }
+
+.TnITTtw-fp-translate.TnITTtw-in-progress { animation-name: funky-bg; anima=
+tion-duration: 10s; animation-timing-function: ease-in; }
+
+.TnITTtw-fp-translate.TnITTtw-show-original { width: calc(100% - 20px) !imp=
+ortant; }
+
+@keyframes funky-bg {=20
+  0% { }
+  100% { }
+}
+
+.TnITTtw-change-language, .TnITTtw-stop-fp { width: 38px; height: 38px; bac=
+kground-color: rgb(239, 239, 244); background-repeat: no-repeat; background=
+-position: center center; background-size: 16px 16px; border-radius: 11px; =
+display: inline-block; vertical-align: top; cursor: pointer; }
+
+.TnITTtw-change-language { background-image: url("chrome-extension://ihmgic=
+libbndffejedjimfjmfoabpcke/res/images/ui/globe-earth.png") !important; }
+
+.TnITTtw-dark-mode .TnITTtw-change-language { background-image: url("chrome=
+-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth-dar=
+k.png") !important; }
+
+.TnITTtw-stop-fp { display: none; background-size: 12px 12px; background-im=
+age: url("chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui=
+/regular-stt-stop.png") !important; }
+
+.TnITTtw-dark-mode .TnITTtw-change-language, .TnITTtw-dark-mode .TnITTtw-st=
+op-fp { background-color: rgb(82, 82, 81) !important; }
+
+.TnITTtw-change-language:hover, .TnITTtw-stop-fp:hover { background-color: =
+rgb(246, 246, 246); }
+
+.TnITTtw-change-language:active, .TnITTtw-stop-fp:active { background-color=
+: rgb(233, 233, 233); }
+
+.TnITTtw-dark-mode .TnITTtw-change-language:hover, .TnITTtw-dark-mode .TnIT=
+Ttw-stop-fp:hover, .TnITTtw-dark-mode .TnITTtw-change-language:active, .TnI=
+TTtw-dark-mode .TnITTtw-stop-fp:active { background-color: rgb(118, 118, 11=
+7); }
+
+#TnITTtw-always-translate { }
+
+.TnITTtw-fp-options input { padding: initial; width: auto; border: initial;=
+ box-shadow: initial; line-height: initial; height: auto; display: initial;=
+ position: initial; appearance: auto; top: initial; cursor: pointer; margin=
+: 0px; }
+
+.TnITTtw-fp-options input[readonly=3D"readonly"] { opacity: 0.5; }
+
+#TnITTtw-always-translate + label, #TnITTtw-never-translate-lang + label, #=
+TnITTtw-never-translate-site + label { display: inline-block; font-weight: =
+400; font-size: 14px; margin: 0px 0px 0px 4px; color: rgb(0, 0, 0); cursor:=
+ pointer; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; w=
+idth: 296px; vertical-align: top; line-height: initial; letter-spacing: ini=
+tial; text-transform: initial; padding: 0px; font-family: -apple-system, Bl=
+inkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, s=
+ans-serif !important; }
+
+#TnITTtw-always-translate + label::before, #TnITTtw-never-translate-lang + =
+label::before, #TnITTtw-never-translate-site + label::before, #TnITTtw-alwa=
+ys-translate + label::after, #TnITTtw-never-translate-lang + label::after, =
+#TnITTtw-never-translate-site + label::after { content: initial; }
+
+.TnITTtw-always-translate-inner-label { text-overflow: ellipsis; white-spac=
+e: nowrap; overflow: hidden; max-width: 252px; vertical-align: top; display=
+: inline-block; }
+
+.TnITTtw-dark-mode #TnITTtw-always-translate + label, .TnITTtw-dark-mode #T=
+nITTtw-never-translate-lang + label, .TnITTtw-dark-mode #TnITTtw-never-tran=
+slate-site + label { color: rgb(255, 255, 255); }
+
+#TnITTtw-always-translate + label.TnITTtw-not-pro { opacity: 0.5; }
+
+#TnITTtw-always-translate + label .TnITTtw-pro-label { position: relative; =
+background: rgb(0, 0, 0); font-size: 11px; text-transform: uppercase; color=
+: rgb(255, 255, 255); padding: 2px 5px; border-radius: 4px; margin-left: 10=
+px; top: -1px; user-select: none; display: inline; font-weight: 500; }
+
+.TnITTtw-dark-mode #TnITTtw-always-translate + label .TnITTtw-pro-label { b=
+ackground: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+
+.TnITTtw-inline-original-tooltip { display: none; position: absolute; margi=
+n: 0px; border: none; padding: 16px; color: rgb(0, 0, 0); background-color:=
+ rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-radius: 11p=
+x; box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 10px; font-family: -apple-system=
+, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubunt=
+u, sans-serif; font-style: normal; font-variant: normal; font-weight: norma=
+l; font-size: 16px; line-height: normal; }
+
+.TnITTtw-dark-mode.TnITTtw-inline-original-tooltip { background-color: rgba=
+(0, 0, 0, 0.914); color: rgb(255, 255, 255); }
+
+.TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip { width: 1=
+2px; height: 12px; background-size: 12px 12px; background-repeat: no-repeat=
+; background-position: center center; position: absolute; right: 8px; top: =
+8px; cursor: pointer; background-image: url("chrome-extension://ihmgiclibbn=
+dffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png") !important; }
+
+.TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip:hover { ba=
+ckground-image: url("chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/re=
+s/images/ui/hover-close-tt.png") !important; }
+
+.TnITTtw-inline-original-tooltip .TnITTtw-original-label { margin: 0px 0px =
+10px; font-weight: 600; font-size: 13px; text-transform: uppercase; color: =
+rgb(109, 109, 114); }
+
+.TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-original-label =
+{ color: rgb(152, 152, 157); }
+
+.TnITTtw-inline-original-tooltip .TnITTtw-text-layout { display: inline-blo=
+ck; margin: 0px; font-size: 16px; color: rgb(0, 0, 0); }
+
+.TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-text-layout { c=
+olor: rgb(255, 255, 255); }
+
+.TnITTtw-highlighted-for-original { color: rgb(15, 15, 95); background-colo=
+r: rgb(240, 240, 160); }
+
+#selVisibleScroll-1, #selVisibleScroll-2, #selVisibleScroll-3 { overflow: h=
+idden; height: 259px; width: 100%; position: relative; }
+
+#sel-scrollbar-1, #sel-scrollbar-2, #sel-scrollbar-3 { position: absolute; =
+width: 4px; height: 259px; left: 225px; }
+
+#sel-track-1, #sel-track-2, #sel-track-3 { position: absolute; top: 1px; wi=
+dth: 4px; height: calc(100% - 6px); }
+
+#sel-dragBar-1, #sel-dragBar-2, #sel-dragBar-3 { position: absolute; top: 1=
+px; width: 4px; background: rgba(43, 43, 43, 0.5); cursor: pointer; border-=
+radius: 4px; }
+
+.dark-mode #sel-dragBar-1, .dark-mode #sel-dragBar-2, .dark-mode #sel-dragB=
+ar-3 { background: rgba(255, 255, 255, 0.5); }
+
+#sel-dragBar-1:hover, #sel-dragBar-2:hover, #sel-dragBar-3:hover, #sel-drag=
+Bar-1:active, #sel-dragBar-2:active, #sel-dragBar-3:active { background: rg=
+ba(43, 43, 43, 0.675); }
+
+.dark-mode #sel-dragBar-1:hover, .dark-mode #sel-dragBar-2:hover, .dark-mod=
+e #sel-dragBar-3:hover, .dark-mode #sel-dragBar-1:active, .dark-mode #sel-d=
+ragBar-2:active, .dark-mode #sel-dragBar-3:active { background: rgba(255, 2=
+55, 255, 0.675); }
+
+#sel-scrollbar-1, #sel-track-1, #sel-dragBar-1, #sel-scrollbar-2, #sel-trac=
+k-2, #sel-dragBar-2, #sel-scrollbar-3, #sel-track-3, #sel-dragBar-3 { user-=
+select: none; }
+
+.TnITTtw-cta-button-layout { position: relative; display: inline; }
+
+.TnITTtw-spinner { display: none; text-align: center; position: absolute; t=
+op: 0px; width: 100%; user-select: none; }
+
+@media screen and (max-width: 800px) {
+  .TnITTtw-spinner { top: 28px; }
+}
+
+.TnITTtw-spinner.in-text { display: block; background: transparent; positio=
+n: initial; }
+
+.TnITTtw-spinner.left { text-align: left; }
+
+.TnITTtw-spinner > div { width: 12px; height: 12px; background-color: rgb(0=
+, 71, 46); border-radius: 100%; display: inline-block; animation: 1.4s ease=
+-in-out 0s infinite normal both running sk-bouncedelay; }
+
+.TnITTtw-spinner.in-text > div { background-color: rgb(0, 0, 0); }
+
+.TnITTtw-spinner .TnITTtw-bounce1 { animation-delay: -0.32s; }
+
+.TnITTtw-spinner .TnITTtw-bounce2 { animation-delay: -0.16s; }
+
+@-webkit-keyframes sk-bouncedelay {=20
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+}
+
+@keyframes sk-bouncedelay {=20
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+}
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png
+
+iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXlJREFUSA2t
+VNtSwyAUFPJ13mIy46jV2o9L660vudjRr0vibmcOQyoBovBQSOHsnj0HVjVN86a1rvI8/z5LOIBb
+Au5W42c7DMN713XnqfDrui7GcayQ+E4XRfGllHpMRYJEb5h0lmV3rIqSrNu2vQTrK1gf/lougiPR
+LTDuBcMQkAgHrnCAJOaAJBCakWCOBHenseyBGWA94OMJJB9LeoKGXrvACTxRIEwMwPrlNBvZt+fQ
+2YkCCUTjP9H4dUgJSxpKxKlAiFxNk73YS+FUICDoSYvabvq+39s9iQUnjleBEPHhYH282ygbY/j6
+o65zFAGJ+PShpkJvhlhwxnlLxAP/HVEE4i18/iBcoUzR3hUk4E0CqPGWpd7l7UGKazpLMOctdk+Q
+QNC7nCXyeYtNEONdvxSEvMUmkLUvZqKAkhEUZXICztnnXUbBkudvg9tr16U4KkgBTiKXdynU7wJ7
+0d5iZzy3tr2LCp6XeMscqP1/WZYNPGuDF7/+ATloMgHK0c3UAAAAAElFTkSuQmCC
+
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth.png
+
+iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAAGWB6gOAAAABGdBTUEAALGPC/xhBQAAADhlWElm
+TU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAJKADAAQAAAABAAAAJAAAAAAJ
+xsHGAAAHOklEQVRYCa0YS4xURbCr35tdAgJqogQTlQDyUyQIiKgJ4MnMsCAEoqgHszNgSMRESISL
+yR7VGDXhQARm40H5BCPymY0ngYOiAoKiuHzkZ6JBExUWjOzMe2VVvVe9/WbGXSS8w9Sn69fV3dXV
+Y0z62VLbWsVBEYbQnkcAs80GpfxSf8AgxCLJEv6AFTVSIRgxjp1dfSbDZW2zmZkYTlVbli+YLExb
+zL8rCAvUG854G9YKtzurqeTBAMJXIhN9atC0kIXz2FkZl9FS2w3QhUUjFMRGFdAYCO5LLRVO5sAs
+qiIe04lBMd9NLgdTTFNUUeCgYv5eKBW2Z5hEiKWW5W0TqrXoRx5kS+pKrUoeq1F8MAyDaWOGjBkk
+VgB6fGGnJYNNfgDgDck1j6kLlbOl/MvKF3c64ENAuKL0gO7C0DwiwuoqKBaeYYbSDjqTun3AHKck
+TmK+psAtsAozJAv7CCS7iBl1Xwh2ZrW852uf7Qy5pANcwXJlqIQDcJTwqarAPAC7BhC7Y4M7abku
+YbnrVh5P90D+LOGjiOhgJm1/PhrjlWYefwhmKg0uUD7Ri4h+UBaQ98Y1NOcm3TOk9YeO7b2skERj
+dpO3+Uz7H49Za5dEm/Z8xHwoFi4bxKG2F2AxM9QI4/zRyh9LsMZfjHGccgHNBsZ1anzcP6AwTzOT
+ptZBli5SLtYz7X88RrLvkdCvzBdZA90ikyvOe5hDDtoLMhXbPm+VTM+3QDgdtg99PuGx0hKRytMh
++4tcDCePm9FAG89d90lQbCvFGG0Mbcv0Wtx7kHQgMPBErbOyl/UzhtQgQ1ssvI6Ia3weiXeHIb5Q
+3dD1VZbfjyEW5BoSYfwSGHu4BaMt/5S7ztcbULohIs5XDeMGj6pAcD9Nd45HC5o5ttBeOJkYAdlP
+tHJXOEdUFx9PFTk3sznBfBJ8Y86QJNrgfdbAAtpDr7EQHxWGtfKuz8noUUJnSPLJAdcw35gYomXd
+yquVA5gcdVZ2IcZUhqCHjeg3ZvBoqRW54vyp4iA1puOSI9kLYL6jXfoxDyQb0uwk+ogKOr4xJ0hp
+i0dLzqD5MvvqA+M83aT8cQkuV4axSlCatziO4+2SizoblMddFG6bjt3fsaTl+IWr11rBjJIc0RT2
+qA6a+C7F6yFN6YzP04NeBfOortovTiCGWxxejwBcrWcxjbEdKYbQ4HQVAGsuKt4AEe9s4BHDBnCY
+clSgOw0nUNgdIgRmJKJ50dGeJtWaFXSQR7gxMGNJ9nlJdm55fmatZr705P83yoasd5KRGboiUkpS
+OsM3drUo0glgj3yjMJQcceNBOG+FC8yk4nKCQn5W8PRHL724c8/bLcXCA3KLGDil1xJNN/nC9sLc
+yOBnRCEVrxlUvA5ZCJZF5d2bWCLZ/dADBneLE+8qknH+0W/4isJtl6/hH0oLTG7V8YQHyqdpb4vL
+XXItO54iPkwWAN7n1fT53FPE5cpan6e4m5oy+oPsIIpgIU2NEp110qgH3RT5ziDAHd6CNorVcfoN
+iFPW04vrKYCn6/R8MuJFFgaaTCp9IcY5tUNbYMWl9ZU/68eUbhqQbATAHVwzU0G+h7cEGL5Tg2gv
+HRI51v7mUIN6+wlNxSmE3NwIe1fRpLgtSfzRxgkQFuqNqLoMMwElm8jQPYT3pUI/UxHP95Yr34tw
+0utyFowFWBqVK1tTuQzgIxAjSi2WI1Lukj3ErX61Vq2Q8N2JApwa1mpm+hlzAdVdikhX0lN8m6gn
+WyqsplbmLaYpW5tpVz+nY80gNxuUFTmrdEuv5vOpctyo0Dn9hE0xz28jhXEzypE6u1HI7TVv/pAN
+1GpyNMUWzd71bM54WnhTgaY9nJP1EC3KzCK7rr9zImmRZjqJwUwEaX6iaF8q1LRXCUqFYhxjUtnA
+bKLlWpbK9wv4QUbLVmIha6EUbaqU6xWoUu4j3mzmB0Ewx8YY991lBg7xQP2HsRnheAC/OXwgxJPN
+2PD0wPPJsViq4X23tDHNr3uLV5wNxCEOHwjxZX0bWT3nk2OxOTRf6Dg9TeZxg6K0QjolLmhqvUYr
+fyDoy/o2VI99sU+lORY5ZTejVVOjNwr1fnN1iDbXWTI2Sgx6zag6oNnKAzAdb2hOVU6hPgxT2jWt
+3rg8FFPaHSYXEA9wi02nIrm3qHXOGTNLqzS31DWsfSMG6EqgVvuO0+vWXUsNZsDYlStbf/r7zO/8
+oOKBEMKHquVdRxjn5qVqzAG9fqgcZFoH6YhYkD/uKXJhMJHq5yVW4L9I6JXaw5WVDfKbWgTJETn8
+z75OxtJgWId12QbbYpsSDPlgX9fVx7DT5OEf09Xh7jXi8jMp/pbgDAmMshiY4El55RAjLM5/LPk7
+Kbl8SZeeT3YKQe+gwKlcaOf3btidPHzFUN9PZsn62FksvefeJO7s7Mh1U/vpvnpV+8v+tK4roGYG
++A+Lmg1GxWhm0XNlGsvQ0T5Mhe1AGEfn+nvuNrOnvH8BUJ0+btkqAsIAAAAASUVORK5CYII=
+
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2e115c3d-f89f-4248-8440-27a228a55508@mhtml.blink
+
+@charset "utf-8";
+
+.iw-contextMenu { display: none; z-index: 1000000132; box-shadow: rgba(0, 0=
+, 0, 0.1) 0px 2px 3px !important; border: 1px solid rgb(200, 199, 204) !imp=
+ortant; border-radius: 11px !important; max-width: 300px !important; width:=
+ auto !important; }
+
+.dark-mode .iw-contextMenu, .TnITTtw-dark-mode.iw-contextMenu, .TnITTtw-dar=
+k-mode .iw-contextMenu { border-color: rgb(116, 116, 115) !important; }
+
+.iw-cm-menu { background: rgb(255, 255, 255) !important; color: rgb(0, 0, 0=
+) !important; margin: 0px !important; padding: 0px !important; overflow: vi=
+sible !important; }
+
+.dark-mode .iw-cm-menu, .TnITTtw-dark-mode.iw-cm-menu, .TnITTtw-dark-mode .=
+iw-cm-menu { background: rgb(82, 82, 81) !important; color: rgb(255, 255, 2=
+55) !important; }
+
+.iw-curMenu { }
+
+.iw-cm-menu li { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI"=
+, "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important; list-s=
+tyle: none !important; padding: 10px 20px 10px 10px !important; border-bott=
+om: 1px solid rgb(200, 199, 204) !important; font-weight: 400 !important; c=
+ursor: pointer !important; position: relative !important; font-size: 14px !=
+important; margin: 0px !important; line-height: inherit !important; border-=
+radius: 0px !important; display: block !important; }
+
+.dark-mode .iw-cm-menu li, .TnITTtw-dark-mode .iw-cm-menu li { border-botto=
+m-color: rgb(116, 116, 115) !important; }
+
+.iw-cm-menu li:first-child { border-top-left-radius: 11px !important; borde=
+r-top-right-radius: 11px !important; }
+
+.iw-cm-menu li:last-child { border-bottom-left-radius: 11px !important; bor=
+der-bottom-right-radius: 11px !important; border-bottom: none !important; }
+
+.iw-mOverlay { position: absolute !important; width: 100% !important; heigh=
+t: 100% !important; top: 0px !important; left: 0px !important; background: =
+rgb(255, 255, 255) !important; opacity: 0.5 !important; }
+
+.iw-contextMenu li.iw-mDisable { opacity: 0.3 !important; cursor: default !=
+important; }
+
+.iw-mSelected { background-color: rgb(246, 246, 246) !important; }
+
+.dark-mode .iw-mSelected, .TnITTtw-dark-mode .iw-mSelected { background-col=
+or: rgb(103, 103, 102) !important; }
+
+.iw-cm-arrow-right { width: 0px !important; height: 0px !important; border-=
+top: 5px solid transparent !important; border-bottom: 5px solid transparent=
+ !important; border-left: 5px solid rgb(0, 0, 0) !important; position: abso=
+lute !important; right: 5px !important; top: 50% !important; margin-top: -5=
+px !important; }
+
+.dark-mode .iw-cm-arrow-right, .TnITTtw-dark-mode .iw-cm-arrow-right { bord=
+er-left-color: rgb(255, 255, 255) !important; }
+
+.iw-mSelected > .iw-cm-arrow-right { }
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-90a94efe-f02b-47e4-806b-2c2c9a193c90@mhtml.blink
+
+@charset "utf-8";
+
+.ui_selector, .TnITTtw-ui_selector { font-family: -apple-system, BlinkMacSy=
+stemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-seri=
+f; display: inline-block; }
+
+.ui_selector .select, .TnITTtw-ui_selector .TnITTtw-select { color: rgb(0, =
+0, 0); text-align: center; font-weight: 600; font-size: 14px; border: 1px s=
+olid rgba(200, 199, 204, 0.5); padding: 10px 15px; width: 201px; user-selec=
+t: none; cursor: pointer; border-radius: 11px; display: inline-block; backg=
+round-image: -webkit-linear-gradient(top, rgb(250, 250, 250), rgb(246, 246,=
+ 246)); background-size: auto 48px; background-position: 0px -11px; box-sha=
+dow: rgba(0, 0, 0, 0.1) 0px 0.5px 1px; text-overflow: ellipsis; overflow: h=
+idden; white-space: nowrap; }
+
+.dark-mode .ui_selector .select, .TnITTtw-dark-mode .TnITTtw-ui_selector .T=
+nITTtw-select { background-image: -webkit-linear-gradient(top, rgb(74, 74, =
+73), rgb(64, 64, 63)); color: rgb(255, 255, 255); border-color: rgb(116, 11=
+6, 115); }
+
+.ui_selector .select:hover, .TnITTtw-ui_selector .TnITTtw-select:hover { co=
+lor: rgb(66, 66, 66); background-image: -webkit-linear-gradient(top, rgb(25=
+0, 250, 250), rgb(250, 250, 250)); }
+
+.ui_selector .select:active, .TnITTtw-ui_selector .TnITTtw-select:active { =
+color: rgb(109, 109, 114); background-image: -webkit-linear-gradient(top, r=
+gb(246, 246, 246), rgb(246, 246, 246)); }
+
+.dark-mode .ui_selector .select:hover, .dark-mode .ui_selector .select:acti=
+ve, .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select:hover, .TnITTtw=
+-dark-mode .TnITTtw-ui_selector .TnITTtw-select:active { background-image: =
+-webkit-linear-gradient(top, rgb(74, 74, 73), rgb(74, 74, 73)); color: rgb(=
+255, 255, 255); border-color: rgb(116, 116, 115); }
+
+.ui_selector .select .detected-ico, .TnITTtw-ui_selector .TnITTtw-select .T=
+nITTtw-detected-ico { display: inline-block; }
+
+.ui_selector .active, .ui_selector .active:hover, .ui_selector .active:acti=
+ve, .TnITTtw-ui_selector .TnITTtw-active, .TnITTtw-ui_selector .TnITTtw-act=
+ive:hover, .TnITTtw-ui_selector .TnITTtw-active:active { border-bottom-left=
+-radius: 0px; border-bottom-right-radius: 0px; background: rgb(243, 243, 24=
+3); box-shadow: rgba(0, 0, 0, 0.85) 0px -1px 15px -10px !important; }
+
+.sliding-text, .TnITTtw-sliding-text { position: relative; }
+
+.ui_selector .options, .TnITTtw-ui_selector .TnITTtw-options { margin-left:=
+ 0px; margin-top: -4px; background: rgb(255, 255, 255); border: 1px solid r=
+gba(200, 199, 204, 0.5); width: 231px; overflow: hidden; max-height: 313px;=
+ position: absolute; font-size: 12px; box-shadow: rgba(0, 0, 0, 0.25) 0px 2=
+px 10px; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; d=
+isplay: none; }
+
+.ui_selector .options.standalone, .TnITTtw-ui_selector .TnITTtw-options.TnI=
+TTtw-standalone { border-radius: 11px; margin-top: 16px; }
+
+.ui_selector .options-arrow, .TnITTtw-ui_selector .TnITTtw-options-arrow { =
+display: none; position: absolute; background-image: url("chrome-extension:=
+//ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow.png"); b=
+ackground-size: 32px 18px; transform: rotate(180deg); margin-top: -1px; wid=
+th: 32px !important; height: 18px !important; }
+
+.dark-mode .ui_selector .options-arrow, .TnITTtw-dark-mode .TnITTtw-ui_sele=
+ctor .TnITTtw-options-arrow { background-image: url("chrome-extension://ihm=
+giclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow-dark.png"); }
+
+.dark-mode .ui_selector .options, .TnITTtw-dark-mode .TnITTtw-ui_selector .=
+TnITTtw-options { background: rgb(82, 82, 81); }
+
+.ui_selector .options ul, .TnITTtw-ui_selector .TnITTtw-options ul { list-s=
+tyle: none; margin: 0px; padding: 0px; width: 232px; }
+
+.ui_selector .options ul li, .TnITTtw-ui_selector .TnITTtw-options ul li { =
+padding: 10px 0px; user-select: none; text-align: center; font-size: 17px; =
+transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1) 0s; margin: 0px 10px; =
+border-radius: 6px; position: relative; }
+
+.dark-mode .options ul li, .TnITTtw-dark-mode .TnITTtw-options ul li { colo=
+r: rgb(255, 255, 255); }
+
+.ui_selector .options ul li:last-child, .TnITTtw-ui_selector .TnITTtw-optio=
+ns ul li:last-child { margin-bottom: 16px; }
+
+.ui_selector .options ul li.option:first-child, .ui_selector .options ul li=
+.option_selected:first-child, .TnITTtw-ui_selector .TnITTtw-options ul li.T=
+nITTtw-option:first-child, .TnITTtw-ui_selector .TnITTtw-options ul li.TnIT=
+Ttw-option_selected:first-child { margin-top: 16px; }
+
+.ui_selector .options ul li.whenHover, .TnITTtw-ui_selector .TnITTtw-option=
+s ul li.TnITTtw-whenHover { cursor: pointer; background: rgb(243, 243, 243)=
+; text-align: center; }
+
+.dark-mode .ui_selector .options ul li.whenHover, .TnITTtw-dark-mode .TnITT=
+tw-ui_selector .TnITTtw-options ul li.TnITTtw-whenHover { background: rgba(=
+255, 255, 255, 0.5); }
+
+.ui_selector .options ul li.option_selected, .TnITTtw-ui_selector .TnITTtw-=
+options ul li.TnITTtw-option_selected { cursor: pointer; color: rgb(255, 25=
+5, 255); font-weight: 600; background-image: linear-gradient(145deg, rgb(1,=
+ 239, 146), rgb(0, 216, 251)), linear-gradient(35deg, rgba(1, 239, 146, 0.2=
+5), rgba(0, 216, 251, 0.25)) !important; }
+
+.ui_selector .options ul .group, .ui_selector .options ul .group:hover, .ui=
+_selector .options ul .group.whenHover, .TnITTtw-ui_selector .TnITTtw-optio=
+ns ul .TnITTtw-group, .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-gro=
+up:hover, .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group.whenHover=
+ { padding: 16px 10px; color: rgb(142, 142, 147); font-weight: 600; text-tr=
+ansform: uppercase; font-size: 12px; text-align: center; cursor: default; b=
+ackground: rgb(255, 255, 255); }
+
+.dark-mode .ui_selector .options ul .group, .dark-mode .ui_selector .option=
+s ul .group:hover, .dark-mode .ui_selector .options ul .group.whenHover, .T=
+nITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group, .=
+TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group:h=
+over, .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-=
+group.TnITTtw-whenHover { color: rgb(152, 152, 157); background: rgb(82, 82=
+, 81); }
+
+.group-element, .TnITTtw-group-element { width: 153px; }
+
+.options .dd-search, .TnITTtw-options .TnITTtw-dd-search { border-bottom: 1=
+px solid rgba(200, 199, 204, 0.5); }
+
+.dark-mode .options .dd-search, .TnITTtw-dark-mode .TnITTtw-options .TnITTt=
+w-dd-search { border-bottom-color: rgb(116, 116, 115); }
+
+.dd-search .dd-input, .TnITTtw-dd-search .TnITTtw-dd-input { padding: 16px =
+16px 16px calc(48px); width: 168px; border: none; font-family: -apple-syste=
+m, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubun=
+tu, sans-serif; text-align: left; color: rgb(0, 0, 0); font-size: 17px; bac=
+kground-image: url("chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res=
+/images/ui/searchfield-icon.png"); background-position: 16px center; backgr=
+ound-size: 16px; background-repeat: no-repeat; margin: 0px; height: auto; }
+
+.dark-mode .dd-search .dd-input, .TnITTtw-dark-mode .TnITTtw-dd-search .TnI=
+TTtw-dd-input { color: rgb(255, 255, 255); background-color: rgb(82, 82, 81=
+); }
+
+.dd-search .dd-input:focus, .TnITTtw-dd-search .TnITTtw-dd-input:focus { tr=
+ansition: all 275ms cubic-bezier(0.23, 1, 0.32, 1) 0s; outline: none; text-=
+align: left; }
+
+.dd-input::-webkit-input-placeholder, .TnITTtw-dd-input::-webkit-input-plac=
+eholder { color: rgb(142, 142, 147); }
+
+.search-failed-plaque, .TnITTtw-search-failed-plaque { text-align: center; =
+padding: 20px; color: rgb(142, 142, 147); font-size: 17px; font-weight: 600=
+; }
+
+.dark-mode .search-failed-plaque, .TnITTtw-dark-mode .TnITTtw-search-failed=
+-plaque { color: rgb(152, 152, 157); }
+
+.rm-recent, .TnITTtw-rm-recent { position: absolute; width: 10px; height: 1=
+0px; background-image: url("chrome-extension://ihmgiclibbndffejedjimfjmfoab=
+pcke/res/images/ui/regular-lang-remove.png"); background-size: 10px 10px; t=
+op: 15px; right: 10px; }
+
+.rm-recent:hover, .TnITTtw-rm-recent:hover { background-image: url("chrome-=
+extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-lang-remov=
+e.png"); }
+
+.rm-recent:active, .TnITTtw-rm-recent:active { background-image: url("chrom=
+e-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-lang-remo=
+ve.png"); }
+
+.option_selected .rm-recent, .TnITTtw-option_selected .TnITTtw-rm-recent { =
+background-image: url("chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/=
+res/images/ui/down-active-lang-remove.png"); }
+
+.option_selected .rm-recent:hover, .TnITTtw-option_selected .TnITTtw-rm-rec=
+ent:hover { background-image: url("chrome-extension://ihmgiclibbndffejedjim=
+fjmfoabpcke/res/images/ui/hover-active-lang-remove.png"); }
+
+.option_selected .rm-recent:active, .TnITTtw-option_selected .TnITTtw-rm-re=
+cent:active { background-image: url("chrome-extension://ihmgiclibbndffejedj=
+imfjmfoabpcke/res/images/ui/down-active-lang-remove.png"); }
+
+.TnITTtw-hidden { display: none; }
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a398da7f-c7a4-435e-85cc-cf92a900af17@mhtml.blink
+
+@charset "utf-8";
+
+@-webkit-keyframes load4 {=20
+  0%, 100% { box-shadow: 0px -3em 0px 0.2em, 2em -2em 0px 0em, 3em 0px 0px =
+-1em, 2em 2em 0px -1em, 0px 3em 0px -1em, -2em 2em 0px -1em, -3em 0px 0px -=
+1em, -2em -2em 0px 0px; }
+  12.5% { box-shadow: 0px -3em 0px 0px, 2em -2em 0px 0.2em, 3em 0px 0px 0px=
+, 2em 2em 0px -1em, 0px 3em 0px -1em, -2em 2em 0px -1em, -3em 0px 0px -1em,=
+ -2em -2em 0px -1em; }
+  25% { box-shadow: 0px -3em 0px -0.5em, 2em -2em 0px 0px, 3em 0px 0px 0.2e=
+m, 2em 2em 0px 0px, 0px 3em 0px -1em, -2em 2em 0px -1em, -3em 0px 0px -1em,=
+ -2em -2em 0px -1em; }
+  37.5% { box-shadow: 0px -3em 0px -1em, 2em -2em 0px -1em, 3em 0em 0px 0px=
+, 2em 2em 0px 0.2em, 0px 3em 0px 0em, -2em 2em 0px -1em, -3em 0em 0px -1em,=
+ -2em -2em 0px -1em; }
+  50% { box-shadow: 0px -3em 0px -1em, 2em -2em 0px -1em, 3em 0px 0px -1em,=
+ 2em 2em 0px 0em, 0px 3em 0px 0.2em, -2em 2em 0px 0px, -3em 0em 0px -1em, -=
+2em -2em 0px -1em; }
+  62.5% { box-shadow: 0px -3em 0px -1em, 2em -2em 0px -1em, 3em 0px 0px -1e=
+m, 2em 2em 0px -1em, 0px 3em 0px 0px, -2em 2em 0px 0.2em, -3em 0px 0px 0px,=
+ -2em -2em 0px -1em; }
+  75% { box-shadow: 0em -3em 0px -1em, 2em -2em 0px -1em, 3em 0em 0px -1em,=
+ 2em 2em 0px -1em, 0px 3em 0px -1em, -2em 2em 0px 0px, -3em 0em 0px 0.2em, =
+-2em -2em 0px 0px; }
+  87.5% { box-shadow: 0em -3em 0px 0px, 2em -2em 0px -1em, 3em 0px 0px -1em=
+, 2em 2em 0px -1em, 0px 3em 0px -1em, -2em 2em 0px 0px, -3em 0em 0px 0px, -=
+2em -2em 0px 0.2em; }
+}
+
+@keyframes load4 {=20
+  0%, 100% { box-shadow: 0px -3em 0px 0.2em, 2em -2em 0px 0em, 3em 0px 0px =
+-1em, 2em 2em 0px -1em, 0px 3em 0px -1em, -2em 2em 0px -1em, -3em 0px 0px -=
+1em, -2em -2em 0px 0px; }
+  12.5% { box-shadow: 0px -3em 0px 0px, 2em -2em 0px 0.2em, 3em 0px 0px 0px=
+, 2em 2em 0px -1em, 0px 3em 0px -1em, -2em 2em 0px -1em, -3em 0px 0px -1em,=
+ -2em -2em 0px -1em; }
+  25% { box-shadow: 0px -3em 0px -0.5em, 2em -2em 0px 0px, 3em 0px 0px 0.2e=
+m, 2em 2em 0px 0px, 0px 3em 0px -1em, -2em 2em 0px -1em, -3em 0px 0px -1em,=
+ -2em -2em 0px -1em; }
+  37.5% { box-shadow: 0px -3em 0px -1em, 2em -2em 0px -1em, 3em 0em 0px 0px=
+, 2em 2em 0px 0.2em, 0px 3em 0px 0em, -2em 2em 0px -1em, -3em 0em 0px -1em,=
+ -2em -2em 0px -1em; }
+  50% { box-shadow: 0px -3em 0px -1em, 2em -2em 0px -1em, 3em 0px 0px -1em,=
+ 2em 2em 0px 0em, 0px 3em 0px 0.2em, -2em 2em 0px 0px, -3em 0em 0px -1em, -=
+2em -2em 0px -1em; }
+  62.5% { box-shadow: 0px -3em 0px -1em, 2em -2em 0px -1em, 3em 0px 0px -1e=
+m, 2em 2em 0px -1em, 0px 3em 0px 0px, -2em 2em 0px 0.2em, -3em 0px 0px 0px,=
+ -2em -2em 0px -1em; }
+  75% { box-shadow: 0em -3em 0px -1em, 2em -2em 0px -1em, 3em 0em 0px -1em,=
+ 2em 2em 0px -1em, 0px 3em 0px -1em, -2em 2em 0px 0px, -3em 0em 0px 0.2em, =
+-2em -2em 0px 0px; }
+  87.5% { box-shadow: 0em -3em 0px 0px, 2em -2em 0px -1em, 3em 0px 0px -1em=
+, 2em 2em 0px -1em, 0px 3em 0px -1em, -2em 2em 0px 0px, -3em 0em 0px 0px, -=
+2em -2em 0px 0.2em; }
+}
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c6ecab60-07a0-46fb-a712-388cdfdae527@mhtml.blink
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mvolkmann.github.io/blog/assets/prism-a11y.css
+
+@charset "utf-8";
+
+code[class*=3D"language-"], pre[class*=3D"language-"] { color: rgb(84, 84, =
+84); background: none; font-family: Consolas, Monaco, "Andale Mono", "Ubunt=
+u Mono", monospace; text-align: left; white-space: pre; word-spacing: norma=
+l; word-break: normal; overflow-wrap: normal; line-height: 1.5; tab-size: 4=
+; hyphens: none; }
+
+pre[class*=3D"language-"] { padding: 1em; margin: 0.5em 0px; overflow: auto=
+; border-radius: 0.3em; }
+
+:not(pre) > code[class*=3D"language-"], pre[class*=3D"language-"] { backgro=
+und: rgb(254, 254, 254); }
+
+:not(pre) > code[class*=3D"language-"] { padding: 0.1em; border-radius: 0.3=
+em; white-space: normal; }
+
+.token.comment, .token.prolog, .token.doctype, .token.cdata { color: rgb(10=
+5, 105, 105); }
+
+.token.punctuation { color: rgb(84, 84, 84); }
+
+.token.property, .token.tag, .token.constant, .token.symbol, .token.deleted=
+ { color: rgb(0, 127, 170); }
+
+.token.boolean, .token.number { color: rgb(0, 128, 0); }
+
+.token.selector, .token.attr-name, .token.string, .token.char, .token.built=
+in, .token.inserted { color: rgb(170, 93, 0); }
+
+.token.operator, .token.entity, .token.url, .language-css .token.string, .s=
+tyle .token.string, .token.variable { color: rgb(0, 128, 0); }
+
+.token.atrule, .token.attr-value, .token.function { color: rgb(170, 93, 0);=
+ }
+
+.token.keyword { color: rgb(217, 30, 24); }
+
+.token.regex, .token.important { color: rgb(217, 30, 24); }
+
+.token.important, .token.bold { font-weight: bold; }
+
+.token.italic { font-style: italic; }
+
+.token.entity { cursor: help; }
+
+@media not all {
+  code[class*=3D"language-"], pre[class*=3D"language-"] { color: windowtext=
+; background: window; }
+  :not(pre) > code[class*=3D"language-"], pre[class*=3D"language-"] { backg=
+round: window; }
+  .token.important { background: highlight; color: window; font-weight: nor=
+mal; }
+  .token.atrule, .token.attr-value, .token.function, .token.keyword, .token=
+.operator, .token.selector { font-weight: bold; }
+  .token.attr-value, .token.comment, .token.doctype, .token.function, .toke=
+n.keyword, .token.operator, .token.property, .token.string { color: highlig=
+ht; }
+  .token.attr-value, .token.url { font-weight: normal; }
+}
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://mvolkmann.github.io/blog/assets/topic.css
+
+@charset "utf-8";
+
+a > code { font-size: 1.4rem; }
+
+article aside { border: 1px solid gray; font-size: 0.9rem; padding: 0.5rem;=
+ }
+
+body { --accent-color: #3265dc; font-family: sans-serif; margin: 0px auto; =
+padding: 1rem; }
+
+h2 { color: purple; font-size: 1.4rem; }
+
+h2:not(:first-of-type) { border-top: 1px solid rgb(211, 211, 211); padding-=
+top: 1rem; }
+
+h3 { border-top: 1px dashed rgb(211, 211, 211); color: var(--accent-color);=
+ font-size: 1.2rem; margin-top: 0px; padding-top: 1rem; }
+
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion) {
+  html { scroll-behavior: auto; }
+}
+
+img { width: 95%; }
+
+img.default-size { width: unset; }
+
+img.half-size { width: 50%; }
+
+img.keep-size { width: auto; }
+
+.MathJax { font-size: 200%; }
+
+li > code, p > code { font-size: 1.2rem; }
+
+pre { background-color: rgb(255, 249, 242) !important; }
+
+table { border-collapse: collapse; }
+
+td { background-color: rgb(255, 249, 242); }
+
+th { background-color: rgb(246, 208, 120); }
+
+td, th { border: 1px solid gray; padding: 0.5rem; }
+------MultipartBoundary--RLZuriHn1suVh2dgYl2obY8Er9UvqJyrFnxIhZuGar------
